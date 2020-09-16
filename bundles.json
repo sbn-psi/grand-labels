@@ -55,7 +55,38 @@
                 "collection_type":"data"
             }
         ]       
-    }
+    },
+    {
+        "bundle_id":"dawn-grand-vesta",
+        "bundle_title":"Vesta",
+        "bundle_description":"Vesta",
+        "collections": [
+            {
+                "collection_id":"browse",
+                "collection_type":"browse"
+            },
+            {
+                "collection_id":"document",
+                "collection_type":"document"
+            },
+            {
+                "collection_id":"data_calibrated",
+                "collection_type":"data"
+            },
+            {
+                "collection_id":"data_derived",
+                "collection_type":"data"
+            },            
+            {
+                "collection_id":"data_raw",
+                "collection_type":"data"
+            },
+            {
+                "collection_id":"miscellaneous",
+                "collection_type":"member"
+            }
 
+        ]       
+    }
 
 ]
