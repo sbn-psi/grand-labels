@@ -32,6 +32,30 @@
                 "collection_type":"data"
             }
         ]       
+    },
+    {
+        "bundle_id":"dawn-grand-mars",
+        "bundle_title":"Mars",
+        "bundle_description":"Mars",
+        "collections": [
+            {
+                "collection_id":"browse",
+                "collection_type":"browse"
+            },
+            {
+                "collection_id":"document",
+                "collection_type":"document"
+            },
+            {
+                "collection_id":"data_calibrated",
+                "collection_type":"data"
+            },
+            {
+                "collection_id":"data_raw",
+                "collection_type":"data"
+            }
+        ]       
     }
+
 
 ]
