@@ -1,0 +1,10 @@
+[
+    {
+        "bundle_id":"dawn-grand-ancillary",
+        "collection_id":"miscellaneous",
+        "collection_title":"DAWN GRaND Ancillary: Miscellaneous Collection",
+        "collection_description": "Miscellaneous files for the GRaND instrument",
+        "collection_type":"Miscellaneous",
+        "inventory_records":"1"
+    }
+]
