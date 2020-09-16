@@ -5,12 +5,18 @@
         "bundle_description":"ancillary",
         "collections": [
             {
-                "collection_id":"document",
-                "collection_type":"document"
+                "collection_id":"miscellaneous",
+                "collection_title":"DAWN GRaND Ancillary: Miscellaneous Collection",
+                "collection_description": "Miscellaneous files for the GRaND instrument",
+                "collection_type":"Miscellaneous",
+                "inventory_records":"1"
             },
             {
-                "collection_id":"miscellaneous",
-                "collection_type":"member"
+                "collection_id":"document",
+                "collection_title":"DAWN GRaND Ancillary: Document Collection",
+                "collection_description": "Document for the GRaND instrument that are not specific to any phase of the mission",
+                "collection_type":"Document",
+                "inventory_records":"1"
             }
         ]       
     },
@@ -21,15 +27,24 @@
         "collections": [
             {
                 "collection_id":"browse",
-                "collection_type":"browse"
+                "collection_type":"browse",
+                "collection_title":"",
+                "collection_description": "",
+                "inventory_records":"1"
             },
             {
                 "collection_id":"document",
-                "collection_type":"document"
+                "collection_type":"document",
+                "collection_title":"",
+                "collection_description": "",
+                "inventory_records":"1"
             },
             {
                 "collection_id":"data_raw",
-                "collection_type":"data"
+                "collection_type":"data",
+                "collection_title":"",
+                "collection_description": "",
+                "inventory_records":"1"
             }
         ]       
     },
@@ -40,19 +55,31 @@
         "collections": [
             {
                 "collection_id":"browse",
-                "collection_type":"browse"
+                "collection_type":"browse",
+                "collection_title":"",
+                "collection_description": "",
+                "inventory_records":"1"
             },
             {
                 "collection_id":"document",
-                "collection_type":"document"
+                "collection_type":"document",
+                "collection_title":"",
+                "collection_description": "",
+                "inventory_records":"1"
             },
             {
                 "collection_id":"data_calibrated",
-                "collection_type":"data"
+                "collection_type":"data",
+                "collection_title":"",
+                "collection_description": "",
+                "inventory_records":"1"
             },
             {
                 "collection_id":"data_raw",
-                "collection_type":"data"
+                "collection_type":"data",
+                "collection_title":"",
+                "collection_description": "",
+                "inventory_records":"1"
             }
         ]       
     },
@@ -63,27 +90,45 @@
         "collections": [
             {
                 "collection_id":"browse",
-                "collection_type":"browse"
+                "collection_type":"browse",
+                "collection_title":"",
+                "collection_description": "",
+                "inventory_records":"1"
             },
             {
                 "collection_id":"document",
-                "collection_type":"document"
+                "collection_type":"document",
+                "collection_title":"",
+                "collection_description": "",
+                "inventory_records":"1"
             },
             {
                 "collection_id":"data_calibrated",
-                "collection_type":"data"
+                "collection_type":"data",
+                "collection_title":"",
+                "collection_description": "",
+                "inventory_records":"1"
             },
             {
                 "collection_id":"data_derived",
-                "collection_type":"data"
+                "collection_type":"data",
+                "collection_title":"",
+                "collection_description": "",
+                "inventory_records":"1"
             },            
             {
                 "collection_id":"data_raw",
-                "collection_type":"data"
+                "collection_type":"data",
+                "collection_title":"",
+                "collection_description": "",
+                "inventory_records":"1"
             },
             {
                 "collection_id":"miscellaneous",
-                "collection_type":"member"
+                "collection_type":"member",
+                "collection_title":"",
+                "collection_description": "",
+                "inventory_records":"1"
             }
 
         ]       
@@ -95,27 +140,45 @@
         "collections": [
             {
                 "collection_id":"browse",
-                "collection_type":"browse"
+                "collection_type":"browse",
+                "collection_title":"",
+                "collection_description": "",
+                "inventory_records":"1"
             },
             {
                 "collection_id":"document",
-                "collection_type":"document"
+                "collection_type":"document",
+                "collection_title":"",
+                "collection_description": "",
+                "inventory_records":"1"
             },
             {
                 "collection_id":"data_calibrated",
-                "collection_type":"data"
+                "collection_type":"data",
+                "collection_title":"",
+                "collection_description": "",
+                "inventory_records":"1"
             },
             {
                 "collection_id":"data_derived",
-                "collection_type":"data"
+                "collection_type":"data",
+                "collection_title":"",
+                "collection_description": "",
+                "inventory_records":"1"
             },            
             {
                 "collection_id":"data_raw",
-                "collection_type":"data"
+                "collection_type":"data",
+                "collection_title":"",
+                "collection_description": "",
+                "inventory_records":"1"
             },
             {
                 "collection_id":"miscellaneous",
-                "collection_type":"member"
+                "collection_type":"member",
+                "collection_title":"",
+                "collection_description": "",
+                "inventory_records":"1"
             }
 
         ]       

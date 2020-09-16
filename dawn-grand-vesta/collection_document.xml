@@ -8,16 +8,16 @@
     xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.xsd">    
     
     <Identification_Area>
-        <logical_identifier>urn:nasa:pds:{{ bundle.bundle_id }}:{{ collection.collection_id }}</logical_identifier>
+        <logical_identifier>urn:nasa:pds:dawn-grand-vesta:document</logical_identifier>
         <version_id>1.0</version_id>
-        <title>{{ collection.collection_title }}</title>
+        <title></title>
         <information_model_version>1.11.0.0</information_model_version>
         <product_class>Product_Collection</product_class>   
         <Citation_Information>
             <author_list>Prettyman, T.H., Yamashita, N.</author_list>
             <publication_year>2020</publication_year>
             <description>
-                {{ collection.collection_description }}
+                
             </description>
         </Citation_Information>
    
@@ -31,20 +31,6 @@
     </Identification_Area>
     
     <Context_Area>
-        {% if collection.start_date or collection.stop_date %}
-        <Time_Coordinates>
-            {% if collection.start_date %}
-            <start_date_time>{{ collection.start_date }}</start_date_time>
-            {% else %}
-            <start_date_time xsi:nil="true" nilReason="unknown"/>
-            {% endif %}
-            {% if collection.stop_date %}
-            <stop_date_time>{{ collection.stop_date }}</stop_date_time>
-            {% else %}
-            <stop_date_time xsi:nil="true" nilReason="unknown"/>
-            {% endif %}
-        </Time_Coordinates>
-        {% endif %}
 
         <Investigation_Area>
             <name>DAWN Mission to Vesta and Ceres</name>
@@ -77,61 +63,21 @@
             </Observing_System_Component>
         </Observing_System>
 
-        {% if "ceres" in bundle.targets %}
-        <Target_Identification>
-            <name>(1) Ceres</name>
-            <type>Dwarf Planet</type>
-            <Internal_Reference>
-                <lid_reference>urn:nasa:pds:context:target:dwarf_planet.1_ceres</lid_reference>
-                <reference_type>bundle_to_target</reference_type>
-            </Internal_Reference>
-        </Target_Identification>
-        {% endif %}
-        {% if "vesta" in bundle.targets %}
-        <Target_Identification>
-            <name>(4) Vesta</name>
-            <type>Asteroid</type>
-            <Internal_Reference>
-                <lid_reference>urn:nasa:pds:context:target:asteroid.4_vesta</lid_reference>
-                <reference_type>bundle_to_target</reference_type>
-            </Internal_Reference>
-        </Target_Identification>
-        {% endif %}
-        {% if "mars" in bundle.targets %}
-        <Target_Identification>
-            <name>Mars</name>
-            <type>Planet</type>
-            <Internal_Reference>
-                <lid_reference>urn:nasa:pds:context:target:planet.mars</lid_reference>
-                <reference_type>bundle_to_target</reference_type>
-            </Internal_Reference>
-        </Target_Identification>
-        {% endif %}
     </Context_Area>
 
-    {% if collection.references %}
-    <Reference_List>
-        {% for reference in collection.references %}
-        <Internal_Reference>
-            <lid_reference>{{ reference.lid }}</lid_reference>
-            <reference_type>{{ reference.type }}</reference_type>
-        </Internal_Reference>
-        {% endfor %}
-    </Reference_List>
-    {% endif %}
     
     <Collection>
-        <collection_type>{{ collection.collection_type }}</collection_type>
+        <collection_type>document</collection_type>
     </Collection>
     
     <File_Area_Inventory>
         <File>
-            <file_name>collection_{{ collection.collection_id }}_inventory.csv</file_name>
+            <file_name>collection_document_inventory.csv</file_name>
         </File>
         <Inventory>
             <offset unit="byte">0</offset>
             <parsing_standard_id>PDS DSV 1</parsing_standard_id>
-            <records>{{ collection.inventory_records }}</records>
+            <records>1</records>
             <record_delimiter>Carriage-Return Line-Feed</record_delimiter>
             <field_delimiter>Comma</field_delimiter>
             <Record_Delimited>
@@ -158,4 +104,3 @@
         </Inventory>
     </File_Area_Inventory>
 </Product_Collection>
-
