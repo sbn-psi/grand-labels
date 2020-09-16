@@ -7,7 +7,7 @@
     <Identification_Area>
         <logical_identifier>urn:nasa:pds:{{ bundle_id }}</logical_identifier>
         <version_id>1.0</version_id>
-        <title>DAWN GRaND {{ bundle_title }} Bundle</title>
+        <title>{{ bundle_title }}</title>
         <information_model_version>1.11.0.0</information_model_version>
         <product_class>Product_Bundle</product_class>
 
@@ -112,7 +112,7 @@
     <Bundle_Member_Entry>
         <lidvid_reference>urn:nasa:pds:{{ bundle_id }}:{{ collection.collection_id }}::1.0</lidvid_reference>
         <member_status>Primary</member_status>
-        <reference_type>bundle_has_{{ collection.collection_type }}_collection</reference_type>
+        <reference_type>{{ collection.reference_type }}</reference_type>
     </Bundle_Member_Entry>
     {% endfor %}
 </Product_Bundle>

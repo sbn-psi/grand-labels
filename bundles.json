@@ -5,17 +5,19 @@
         "bundle_description":"ancillary",
         "collections": [
             {
-                "collection_id":"miscellaneous",
-                "collection_title":"Miscellaneous Collection",
-                "collection_description": "Miscellaneous files for the GRaND instrument",
-                "collection_type":"Miscellaneous",
-                "inventory_records":"1"
-            },
-            {
                 "collection_id":"document",
                 "collection_title":"Document Collection",
                 "collection_description": "Document for the GRaND instrument that are not specific to any phase of the mission",
                 "collection_type":"Document",
+                "reference_type":"bundle_has_document_collection",
+                "inventory_records":"1"
+            },
+            {
+                "collection_id":"miscellaneous",
+                "collection_title":"Miscellaneous Collection",
+                "collection_description": "Miscellaneous files for the GRaND instrument",
+                "collection_type":"Miscellaneous",
+                "reference_type":"bundle_has_member_collection",
                 "inventory_records":"1"
             }
         ]       
@@ -30,21 +32,24 @@
                 "collection_type":"browse",
                 "collection_title":"Browse Collection",
                 "collection_description": "",
-                "inventory_records":"1"
+                "inventory_records":"1",
+                "reference_type":"bundle_has_browse_collection"
             },
             {
                 "collection_id":"document",
                 "collection_type":"document",
                 "collection_title":"Document Collection",
                 "collection_description": "",
-                "inventory_records":"1"
+                "inventory_records":"1",
+                "reference_type":"bundle_has_document_collection"
             },
             {
                 "collection_id":"data_raw",
                 "collection_type":"data",
                 "collection_title":"Raw Data Collection",
                 "collection_description": "",
-                "inventory_records":"1"
+                "inventory_records":"1",
+                "reference_type":"bundle_has_data_collection"
             }
         ]       
     },
@@ -58,28 +63,32 @@
                 "collection_type":"browse",
                 "collection_title":"Browse Collection",
                 "collection_description": "",
-                "inventory_records":"1"
+                "inventory_records":"1",
+                "reference_type":"bundle_has_browse_collection"
             },
             {
                 "collection_id":"document",
                 "collection_type":"document",
                 "collection_title":"Document Collection",
                 "collection_description": "",
-                "inventory_records":"1"
+                "inventory_records":"1",
+                "reference_type":"bundle_has_document_collection"
             },
             {
                 "collection_id":"data_calibrated",
                 "collection_type":"data",
                 "collection_title":"Calibrated Data Collection",
                 "collection_description": "",
-                "inventory_records":"1"
+                "inventory_records":"1",
+                "reference_type":"bundle_has_data_collection"
             },
             {
                 "collection_id":"data_raw",
                 "collection_type":"data",
                 "collection_title":"Raw Data Collection",
                 "collection_description": "",
-                "inventory_records":"1"
+                "inventory_records":"1",
+                "reference_type":"bundle_has_data_collection"
             }
         ]       
     },
@@ -93,42 +102,48 @@
                 "collection_type":"browse",
                 "collection_title":"Browse Collection",
                 "collection_description": "",
-                "inventory_records":"1"
+                "inventory_records":"1",
+                "reference_type":"bundle_has_browse_collection"
             },
             {
                 "collection_id":"document",
                 "collection_type":"document",
                 "collection_title":"Document Collection",
                 "collection_description": "",
-                "inventory_records":"1"
+                "inventory_records":"1",
+                "reference_type":"bundle_has_document_collection"
             },
             {
                 "collection_id":"data_calibrated",
                 "collection_type":"data",
                 "collection_title":"Calibrated Data Collection",
                 "collection_description": "",
-                "inventory_records":"1"
+                "inventory_records":"1",
+                "reference_type":"bundle_has_data_collection"
             },
             {
                 "collection_id":"data_derived",
                 "collection_type":"data",
                 "collection_title":"Derived Data Collection",
                 "collection_description": "",
-                "inventory_records":"1"
+                "inventory_records":"1",
+                "reference_type":"bundle_has_data_collection"
             },            
             {
                 "collection_id":"data_raw",
                 "collection_type":"data",
                 "collection_title":"Raw Data Collection",
                 "collection_description": "",
-                "inventory_records":"1"
+                "inventory_records":"1",
+                "reference_type":"bundle_has_data_collection"
             },
             {
                 "collection_id":"miscellaneous",
                 "collection_type":"member",
                 "collection_title":"Miscellaneous Collection",
                 "collection_description": "",
-                "inventory_records":"1"
+                "inventory_records":"1",
+                "reference_type":"bundle_has_member_collection"
             }
 
         ]       
@@ -143,42 +158,48 @@
                 "collection_type":"browse",
                 "collection_title":"Browse Collection",
                 "collection_description": "",
-                "inventory_records":"1"
+                "inventory_records":"1",
+                "reference_type":"bundle_has_browse_collection"
             },
             {
                 "collection_id":"document",
                 "collection_type":"document",
                 "collection_title":"Document Collection",
                 "collection_description": "",
-                "inventory_records":"1"
+                "inventory_records":"1",
+                "reference_type":"bundle_has_document_collection"
             },
             {
                 "collection_id":"data_calibrated",
                 "collection_type":"data",
                 "collection_title":"Calibrated Data Collection",
                 "collection_description": "",
-                "inventory_records":"1"
+                "inventory_records":"1",
+                "reference_type":"bundle_has_data_collection"
             },
             {
                 "collection_id":"data_derived",
                 "collection_type":"data",
                 "collection_title":"Derived Data Collection",
                 "collection_description": "",
-                "inventory_records":"1"
+                "inventory_records":"1",
+                "reference_type":"bundle_has_data_collection"
             },            
             {
                 "collection_id":"data_raw",
                 "collection_type":"data",
                 "collection_title":"Raw Data Collection",
                 "collection_description": "",
-                "inventory_records":"1"
+                "inventory_records":"1",
+                "reference_type":"bundle_has_data_collection"
             },
             {
                 "collection_id":"miscellaneous",
                 "collection_type":"member",
                 "collection_title":"Miscellaneous Data Collection",
                 "collection_description": "",
-                "inventory_records":"1"
+                "inventory_records":"1",
+                "reference_type":"bundle_has_member_collection"
             }
         ]       
     }

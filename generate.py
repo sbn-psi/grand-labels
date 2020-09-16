@@ -5,7 +5,8 @@ import json
 import os
 
 ENVIRONMENT=Environment(loader=FileSystemLoader('templates'), lstrip_blocks=True, trim_blocks=True)
-TEMPLATE=ENVIRONMENT.get_template("collection.xml.jinja")
+BUNDLE_TEMPLATE=ENVIRONMENT.get_template("bundle-dawn-grand.xml.jinja")
+COLLECTION_TEMPLATE=ENVIRONMENT.get_template("collection.xml.jinja")
 
 def main():
     bundles = json.load(open("bundles.json"))
@@ -15,11 +16,16 @@ def main():
         
         os.makedirs(bundle_id, exist_ok=True)
 
+        bundle_output_path = os.path.join(bundle_id, "bundle_" + bundle_id + ".xml")
+        with open(bundle_output_path, "w") as output_file:
+            output_file.write(BUNDLE_TEMPLATE.render(**bundle))
+
+
         for collection in bundle["collections"]:
             collection_id = collection["collection_id"]
             collection_output_path = os.path.join(bundle_id, "collection_" + collection_id + ".xml")
             with open(collection_output_path, "w") as output_file:
-                output_file.write(TEMPLATE.render(bundle=bundle, collection=collection))
+                output_file.write(COLLECTION_TEMPLATE.render(bundle=bundle, collection=collection))
 
 if __name__ == "__main__":
     main()
