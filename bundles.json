@@ -13,5 +13,25 @@
                 "collection_type":"member"
             }
         ]       
+    },
+    {
+        "bundle_id":"dawn-grand-cruise",
+        "bundle_title":"Cruise",
+        "bundle_description":"cruise",
+        "collections": [
+            {
+                "collection_id":"browse",
+                "collection_type":"browse"
+            },
+            {
+                "collection_id":"document",
+                "collection_type":"document"
+            },
+            {
+                "collection_id":"data_raw",
+                "collection_type":"data"
+            }
+        ]       
     }
+
 ]
