@@ -1,19 +1,19 @@
 [
     {
         "bundle_id":"dawn-grand-ancillary",
-        "bundle_title":"Ancillary",
+        "bundle_title":"DAWN GRaND Ancillary Bundle",
         "bundle_description":"ancillary",
         "collections": [
             {
                 "collection_id":"miscellaneous",
-                "collection_title":"DAWN GRaND Ancillary: Miscellaneous Collection",
+                "collection_title":"Miscellaneous Collection",
                 "collection_description": "Miscellaneous files for the GRaND instrument",
                 "collection_type":"Miscellaneous",
                 "inventory_records":"1"
             },
             {
                 "collection_id":"document",
-                "collection_title":"DAWN GRaND Ancillary: Document Collection",
+                "collection_title":"Document Collection",
                 "collection_description": "Document for the GRaND instrument that are not specific to any phase of the mission",
                 "collection_type":"Document",
                 "inventory_records":"1"
@@ -22,27 +22,27 @@
     },
     {
         "bundle_id":"dawn-grand-cruise",
-        "bundle_title":"Cruise",
+        "bundle_title":"DAWN GRaND Cruise Bundle",
         "bundle_description":"cruise",
         "collections": [
             {
                 "collection_id":"browse",
                 "collection_type":"browse",
-                "collection_title":"",
+                "collection_title":"Browse Collection",
                 "collection_description": "",
                 "inventory_records":"1"
             },
             {
                 "collection_id":"document",
                 "collection_type":"document",
-                "collection_title":"",
+                "collection_title":"Document Collection",
                 "collection_description": "",
                 "inventory_records":"1"
             },
             {
                 "collection_id":"data_raw",
                 "collection_type":"data",
-                "collection_title":"",
+                "collection_title":"Raw Data Collection",
                 "collection_description": "",
                 "inventory_records":"1"
             }
@@ -50,34 +50,34 @@
     },
     {
         "bundle_id":"dawn-grand-mars",
-        "bundle_title":"Mars",
+        "bundle_title":"DAWN GRaND Mars Bundle",
         "bundle_description":"Mars",
         "collections": [
             {
                 "collection_id":"browse",
                 "collection_type":"browse",
-                "collection_title":"",
+                "collection_title":"Browse Collection",
                 "collection_description": "",
                 "inventory_records":"1"
             },
             {
                 "collection_id":"document",
                 "collection_type":"document",
-                "collection_title":"",
+                "collection_title":"Document Collection",
                 "collection_description": "",
                 "inventory_records":"1"
             },
             {
                 "collection_id":"data_calibrated",
                 "collection_type":"data",
-                "collection_title":"",
+                "collection_title":"Calibrated Data Collection",
                 "collection_description": "",
                 "inventory_records":"1"
             },
             {
                 "collection_id":"data_raw",
                 "collection_type":"data",
-                "collection_title":"",
+                "collection_title":"Raw Data Collection",
                 "collection_description": "",
                 "inventory_records":"1"
             }
@@ -85,48 +85,48 @@
     },
     {
         "bundle_id":"dawn-grand-vesta",
-        "bundle_title":"Vesta",
+        "bundle_title":"DAWN GRaND Vesta Bundle",
         "bundle_description":"Vesta",
         "collections": [
             {
                 "collection_id":"browse",
                 "collection_type":"browse",
-                "collection_title":"",
+                "collection_title":"Browse Collection",
                 "collection_description": "",
                 "inventory_records":"1"
             },
             {
                 "collection_id":"document",
                 "collection_type":"document",
-                "collection_title":"",
+                "collection_title":"Document Collection",
                 "collection_description": "",
                 "inventory_records":"1"
             },
             {
                 "collection_id":"data_calibrated",
                 "collection_type":"data",
-                "collection_title":"",
+                "collection_title":"Calibrated Data Collection",
                 "collection_description": "",
                 "inventory_records":"1"
             },
             {
                 "collection_id":"data_derived",
                 "collection_type":"data",
-                "collection_title":"",
+                "collection_title":"Derived Data Collection",
                 "collection_description": "",
                 "inventory_records":"1"
             },            
             {
                 "collection_id":"data_raw",
                 "collection_type":"data",
-                "collection_title":"",
+                "collection_title":"Raw Data Collection",
                 "collection_description": "",
                 "inventory_records":"1"
             },
             {
                 "collection_id":"miscellaneous",
                 "collection_type":"member",
-                "collection_title":"",
+                "collection_title":"Miscellaneous Collection",
                 "collection_description": "",
                 "inventory_records":"1"
             }
@@ -135,52 +135,51 @@
     },
     {
         "bundle_id":"dawn-grand-ceres",
-        "bundle_title":"Ceres",
+        "bundle_title":"DAWN GRaND Ceres Bundle",
         "bundle_description":"Ceres",
         "collections": [
             {
                 "collection_id":"browse",
                 "collection_type":"browse",
-                "collection_title":"",
+                "collection_title":"Browse Collection",
                 "collection_description": "",
                 "inventory_records":"1"
             },
             {
                 "collection_id":"document",
                 "collection_type":"document",
-                "collection_title":"",
+                "collection_title":"Document Collection",
                 "collection_description": "",
                 "inventory_records":"1"
             },
             {
                 "collection_id":"data_calibrated",
                 "collection_type":"data",
-                "collection_title":"",
+                "collection_title":"Calibrated Data Collection",
                 "collection_description": "",
                 "inventory_records":"1"
             },
             {
                 "collection_id":"data_derived",
                 "collection_type":"data",
-                "collection_title":"",
+                "collection_title":"Derived Data Collection",
                 "collection_description": "",
                 "inventory_records":"1"
             },            
             {
                 "collection_id":"data_raw",
                 "collection_type":"data",
-                "collection_title":"",
+                "collection_title":"Raw Data Collection",
                 "collection_description": "",
                 "inventory_records":"1"
             },
             {
                 "collection_id":"miscellaneous",
                 "collection_type":"member",
-                "collection_title":"",
+                "collection_title":"Miscellaneous Data Collection",
                 "collection_description": "",
                 "inventory_records":"1"
             }
-
         ]       
     }
 
