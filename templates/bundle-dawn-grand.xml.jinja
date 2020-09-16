@@ -5,9 +5,9 @@
 <Product_Bundle xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.xsd">
 
     <Identification_Area>
-        <logical_identifier>urn:nasa:pds:dawn-grand-ancillary</logical_identifier>
+        <logical_identifier>urn:nasa:pds:{{ bundle_id }}</logical_identifier>
         <version_id>1.0</version_id>
-        <title>DAWN GRaND Ancillary Bundle</title>
+        <title>DAWN GRaND {{ bundle_title }} Bundle</title>
         <information_model_version>1.11.0.0</information_model_version>
         <product_class>Product_Bundle</product_class>
 
@@ -15,7 +15,7 @@
             <author_list>Prettyman, T.H., Yamashita, N.</author_list>
             <publication_year>2020</publication_year>
             <description>
-                This bundle collects the ancillary products for the GRaND instrument on the DAWN mission.
+                This bundle collects the {{ bundle_description }} products for the GRaND instrument on the DAWN mission.
             </description>
         </Citation_Information>
 
@@ -32,8 +32,16 @@
 
     <Context_Area>
         <Time_Coordinates>
+            {% if bundle_start_date %}
+            <start_date_time>{{ bundle_start_date }}</start_date_time>
+            {% else %}
             <start_date_time xsi:nil="true" nilReason="unknown"/>
+            {% endif %}
+            {% if bundle_stop_date %}
+            <stop_date_time>{{ bundle_stop_date }}</stop_date_time>
+            {% else %}
             <stop_date_time xsi:nil="true" nilReason="unknown"/>
+            {% endif %}
         </Time_Coordinates>
 
         <Investigation_Area>
@@ -100,14 +108,12 @@
         <bundle_type>Archive</bundle_type>
     </Bundle>
 
+    {% for collection in collections %}
     <Bundle_Member_Entry>
-        <lidvid_reference>urn:nasa:pds:dawn-grand-ancillary:document::1.0</lidvid_reference>
+        <lidvid_reference>urn:nasa:pds:{{ bundle_id }}:{{ collection.collection_id }}::1.0</lidvid_reference>
         <member_status>Primary</member_status>
-        <reference_type>bundle_has_document_collection</reference_type>
+        <reference_type>bundle_has_{{ collection.collection_type }}_collection</reference_type>
     </Bundle_Member_Entry>
-    <Bundle_Member_Entry>
-        <lidvid_reference>urn:nasa:pds:dawn-grand-ancillary:miscellaneous::1.0</lidvid_reference>
-        <member_status>Primary</member_status>
-        <reference_type>bundle_has_member_collection</reference_type>
-    </Bundle_Member_Entry>
+    {% endfor %}
 </Product_Bundle>
+

@@ -1,0 +1,17 @@
+[
+    {
+        "bundle_id":"dawn-grand-ancillary",
+        "bundle_title":"Ancillary",
+        "bundle_description":"ancillary",
+        "collections": [
+            {
+                "collection_id":"document",
+                "collection_type":"document"
+            },
+            {
+                "collection_id":"miscellaneous",
+                "collection_type":"member"
+            }
+        ]       
+    }
+]
