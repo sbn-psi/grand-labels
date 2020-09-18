@@ -84,6 +84,37 @@ In this example:
 
 #### Observing Condition Examples
 
+##### Observing Conditions with an Inactive or Active State
+```xml
+<nucspec:Observing_Conditions>
+    <nucspec:condition_type>SEP</nucspec:condition_type>
+    <nucspec:Observing_Condition>
+      <nucspec:condition_active>true</nucspec:condition_active>
+      <nucspec:State_Time_SCLK>
+        <nucspec:sclk_start_time>1</nucspec:sclk_start_time>
+        <nucspec:sclk_stop_time>2</nucspec:sclk_stop_time>
+      </nucspec:State_Time_SCLK>
+    </nucspec:Observing_Condition>
+  </nucspec:Observing_Conditions>
+</nucspec:NucSpec_Observation_Properties>
+```
+
+##### Observing Conditions with a known source
+
+```xml
+<nucspec:Observing_Conditions>
+    <nucspec:condition_type>SEP</nucspec:condition_type>
+    <nucspec:Observing_Condition>
+      <nucspec:condition_source>Sun</nucspec:condition_source>
+      <nucspec:State_Time_SCLK>
+        <nucspec:sclk_start_time>1</nucspec:sclk_start_time>
+        <nucspec:sclk_stop_time>2</nucspec:sclk_stop_time>
+      </nucspec:State_Time_SCLK>
+    </nucspec:Observing_Condition>
+  </nucspec:Observing_Conditions>
+</nucspec:NucSpec_Observation_Properties>
+```
+
 ## DAWN Dictionary
 
 ### About the DAWN dictionary
