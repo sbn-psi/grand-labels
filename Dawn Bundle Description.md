@@ -30,6 +30,8 @@
 
 ### Examples
 
+Below are some examples on how to read the data present in the DAWN mission dictionary. While these examples may be based on real data, they are not necessarily actual data, and should not be used as such. The are only an aid to understanding how the dictionary works.
+
 #### Energy Calibration Example
 
 #### State Table Examples
@@ -100,6 +102,8 @@ In this example:
 * Multiple TELSOHs may be specified.
 
 ### Examples
+
+Below are some examples on how to read the data present in the DAWN mission dictionary. While these examples may be based on real data, they are not necessarily actual data, and should not be used as such. The are only an aid to understanding how the dictionary works.
 
 #### TELREADOUT Example
 
