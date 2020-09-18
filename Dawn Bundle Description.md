@@ -83,6 +83,7 @@ In this example:
 * Maintained by the DAWN mission team.
 * Contains metadata relevant to each instrument on DAWN.
 * In the case of GRaND, contains accumulation intervals (TELREADOUT) and state-of-health intervals (TELSOH), associated with each record.
+* For an explanation of TELREADOUT and TELSOH, see (x)
 
 ### How is the DAWN dictionary used within GRaND
 
@@ -102,4 +103,43 @@ In this example:
 
 #### TELREADOUT Example
 
+```xml
+<dawn:TELREADOUT_List>
+  <dawn:TELREADOUT>
+    <dawn:grand_start_sclk>245828267</dawn:grand_start_sclk>
+    <dawn:grand_stop_sclk>245843489</dawn:grand_stop_sclk>
+    <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+    <dawn:comment>This state not defined in state table. Refer to GRD-L1A-071016-071017_110225-STA.xml</dawn:comment>
+  </dawn:TELREADOUT>
+  <dawn:TELREADOUT>
+    <dawn:grand_start_sclk>245843559</dawn:grand_start_sclk>
+    <dawn:grand_stop_sclk>245853779</dawn:grand_stop_sclk>
+    <dawn:grand_interval unit="s">70</dawn:grand_interval>
+  </dawn:TELREADOUT>
+</dawn:TELREADOUT_List>
+```
+
+In this examle:
+* The records with an SCLK of 245828267-245843489 do not have a scaler accumulation interval.
+* The records with an SCLK of 245843559-245853779 have a scaler accumulation interval of 70 seconds.
+
 #### TELSOH Example
+
+```xml
+<dawn:TELSOH_List>
+  <dawn:TELSOH>
+    <dawn:grand_start_sclk>245828267</dawn:grand_start_sclk>
+    <dawn:grand_stop_sclk>245843489</dawn:grand_stop_sclk>
+    <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+    <dawn:comment>This state not defined in state table. Refer to GRD-L1A-071016-071017_110225-STA.xml</dawn:comment>
+  </dawn:TELSOH>
+  <dawn:TELSOH>
+    <dawn:grand_start_sclk>245843559</dawn:grand_start_sclk>
+    <dawn:grand_stop_sclk>245853779</dawn:grand_stop_sclk>
+    <dawn:grand_interval unit="s">10</dawn:grand_interval>
+  </dawn:TELSOH>
+</dawn:TELSOH_List>
+```
+
+* The records with an SCLK of 245828267-245843489 do not have a state-of-health accumulation interval.
+* The records with an SCLK of 245843559-245853779 have a state-of-health accumulation interval of 10 seconds.
