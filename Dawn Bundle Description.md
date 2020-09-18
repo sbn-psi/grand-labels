@@ -90,13 +90,13 @@ In this example:
 #### Tel_Readout
 
 * TELREADOUT is the accumulation interval.
-* May be associated with individual records within a product.
+* May be associated with individual records within a product, matched by SCLK range.
 * Multiple TELREADOUTs may be specified.
 
 #### Tel_SOH
 
 * TELSOH is the state-of-health interval.
-* May be associated with individual records within a product.
+* May be associated with individual records within a product, matched by SCLK range.
 * Multiple TELSOHs may be specified.
 
 ### Examples
