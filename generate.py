@@ -23,10 +23,20 @@ def main():
 
         for collection in bundle["collections"]:
             collection_id = collection["collection_id"]
+            
             os.makedirs(os.path.join(bundle_id, collection_id), exist_ok=True)
+
+            inventory_filename = "collection_inventory_" + collection_id + ".csv"
+            inventory_path = os.path.join(bundle_id, collection_id, inventory_filename)
+
+            inventory_count = 0
+            if os.path.exists(inventory_path):
+                inventory_count = len(open(inventory_path).readlines())
+
             collection_output_path = os.path.join(bundle_id, collection_id, "collection_" + collection_id + ".xml")
+
             with open(collection_output_path, "w") as output_file:
-                output_file.write(COLLECTION_TEMPLATE.render(bundle=bundle, collection=collection))
+                output_file.write(COLLECTION_TEMPLATE.render(bundle=bundle, collection=collection, inventory_count=inventory_count))
 
 if __name__ == "__main__":
     main()
