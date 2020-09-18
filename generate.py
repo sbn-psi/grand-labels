@@ -12,31 +12,42 @@ def main():
     bundles = json.load(open("bundles.json"))
 
     for bundle in bundles:
-        bundle_id = bundle["bundle_id"]
-        
-        os.makedirs(bundle_id, exist_ok=True)
-
-        bundle_output_path = os.path.join(bundle_id, "bundle_" + bundle_id + ".xml")
-        with open(bundle_output_path, "w") as output_file:
-            output_file.write(BUNDLE_TEMPLATE.render(**bundle))
-
-
+        process_bundle(bundle)
         for collection in bundle["collections"]:
-            collection_id = collection["collection_id"]
-            
-            os.makedirs(os.path.join(bundle_id, collection_id), exist_ok=True)
+            process_collection(bundle, collection)
 
-            inventory_filename = "collection_inventory_" + collection_id + ".csv"
-            inventory_path = os.path.join(bundle_id, collection_id, inventory_filename)
+def process_bundle(bundle):
+    bundle_id = bundle["bundle_id"]
+    
+    os.makedirs(bundle_id, exist_ok=True)
 
-            inventory_count = 0
-            if os.path.exists(inventory_path):
-                inventory_count = len(open(inventory_path).readlines())
+    bundle_output_path = os.path.join(bundle_id, "bundle_" + bundle_id + ".xml")
+    with open(bundle_output_path, "w") as output_file:
+        output_file.write(BUNDLE_TEMPLATE.render(**bundle))
 
-            collection_output_path = os.path.join(bundle_id, collection_id, "collection_" + collection_id + ".xml")
+def process_collection(bundle, collection):
+    bundle_id = bundle["bundle_id"]
+    collection_id = collection["collection_id"]
+    collection_dir = build_collection_dir(bundle_id, collection_id)
 
-            with open(collection_output_path, "w") as output_file:
-                output_file.write(COLLECTION_TEMPLATE.render(bundle=bundle, collection=collection, inventory_count=inventory_count))
+    inventory_path = os.path.join(collection_dir, "collection_inventory_" + collection_id + ".csv")
+    inventory_count = count_records(inventory_path)
+
+    collection_output_path = os.path.join(collection_dir, "collection_" + collection_id + ".xml")
+    with open(collection_output_path, "w") as output_file:
+        output_file.write(COLLECTION_TEMPLATE.render(bundle=bundle, collection=collection, inventory_count=inventory_count))
+
+
+def build_collection_dir(bundle_id, collection_id):
+    collection_dir = os.path.join(bundle_id, collection_id)
+    os.makedirs(os.path.join(bundle_id, collection_id), exist_ok=True)
+    return collection_dir
+
+def count_records(inventory_path):
+    if os.path.exists(inventory_path):
+        return len(open(inventory_path).readlines())
+    return 0
+
 
 if __name__ == "__main__":
     main()
