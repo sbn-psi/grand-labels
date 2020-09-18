@@ -10,6 +10,12 @@
 
 ### How is Nucspec used within GRaND
 
+While GRaND is the first user of the NucSpec dictionary, the dictionary was developed with future missions in mind. Therefore GRaND only uses some of the features of the nucspec dictionary, specifically:
+
+* Energy Calibration using polynomials.
+* Matching records to a State Table by SCLK.
+* Specifying special observing conditions by SCLK.
+
 #### Energy Calibration
 
 * Allows the specification of a polynomial expression that converts a pulse height to an energy level.
