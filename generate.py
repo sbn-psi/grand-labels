@@ -23,7 +23,8 @@ def main():
 
         for collection in bundle["collections"]:
             collection_id = collection["collection_id"]
-            collection_output_path = os.path.join(bundle_id, "collection_" + collection_id + ".xml")
+            os.makedirs(os.path.join(bundle_id, collection_id), exist_ok=True)
+            collection_output_path = os.path.join(bundle_id, collection_id, "collection_" + collection_id + ".xml")
             with open(collection_output_path, "w") as output_file:
                 output_file.write(COLLECTION_TEMPLATE.render(bundle=bundle, collection=collection))
 
