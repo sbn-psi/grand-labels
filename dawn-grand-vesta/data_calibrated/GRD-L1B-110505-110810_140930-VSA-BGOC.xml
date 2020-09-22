@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1A00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/proc/v1/PDS4_PROC_1900.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/geom/PDS4_GEOM_1900_1510.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Observational 
+  xmlns="http://pds.nasa.gov/pds4/pds/v1"   
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:msn="http://pds.nasa.gov/pds4/msn/v1"
+  xmlns:proc="http://pds.nasa.gov/pds4/proc/v1"
+  xmlns:geom="http://pds.nasa.gov/pds4/geom/v1"
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1A00.xsd
+                      http://pds.nasa.gov/pds4/proc/v1 https://pds.nasa.gov/pds4/disp/v1/PDS4_PROC_1900.xsd
+                      http://pds.nasa.gov/pds4/msn/v1 https://pds.nasa.gov/pds4/msn/v1/PDS4_MSN_1700.xsd
+                      http://pds.nasa.gov/pds4/geom/v1 https://pds.nasa.gov/pds4/geom/PDS4_GEOM_1900_1510.xsd"
+>
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:dawn-grand-vesta:data_calibrated:grd-l1b-110505-110810_140930-vsa-bgoc</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>GRD-L1B-110505-110810_140930-VSA-BGOC</title>
+    <information_model_version>1.10.0.0</information_model_version>
+    <product_class>Product_Observational</product_class>
+    <Citation_Information>
+      <author_list>Prettyman, T. H.</author_list>
+      <publication_year>2020</publication_year>
+      <description>GRaND level 1a BGO calibrated histograms</description>
+    </Citation_Information>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2020-04-14</modification_date>
+        <version_id>1.0</version_id>
+        <description>PDS4 migration of GRD-L1B-110505-110810_140930-VSA-BGOC.TAB from PDS3 dataset DAWN-A-GRAND-3-RDR-VESTA-COUNTS-V1.0</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Observation_Area>
+    <Time_Coordinates>
+      <start_date_time>2011-05-05T05:27:34Z</start_date_time>
+      <stop_date_time>2011-08-10T23:57:44Z</stop_date_time>
+    </Time_Coordinates>
+    <Primary_Result_Summary>
+      <purpose>Science</purpose>
+      <processing_level>Calibrated</processing_level>
+    </Primary_Result_Summary>
+    <Investigation_Area>
+      <name>DAWN MISSION TO VESTA AND CERES</name>
+      <type>Mission</type>
+      <Internal_Reference>
+        <lid_reference>urn:nasa:pds:context:investigation:mission.dawn_mission_to_vesta_and_ceres</lid_reference>
+        <reference_type>data_to_investigation</reference_type>
+      </Internal_Reference>
+    </Investigation_Area>
+    <Observing_System>
+      <name>Dawn Spacecraft + GRaND</name>
+      <Observing_System_Component>
+        <name>DAWN</name>
+        <type>Spacecraft</type>
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.dawn</lid_reference>
+          <reference_type>is_instrument_host</reference_type>
+        </Internal_Reference>
+      </Observing_System_Component>
+      <Observing_System_Component>
+        <name>GAMMA-RAY AND NEUTRON DETECTOR</name>
+        <type>Instrument</type>
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:context:instrument:dawn.grand</lid_reference>
+          <reference_type>is_instrument</reference_type>
+        </Internal_Reference>
+      </Observing_System_Component>
+    </Observing_System>
+    <Target_Identification>
+      <name>(4) Vesta</name>
+      <type>Asteroid</type>
+      <Internal_Reference>
+        <lid_reference>urn:nasa:pds:context:target:asteroid.4_vesta</lid_reference>
+        <reference_type>data_to_target</reference_type>
+      </Internal_Reference>
+    </Target_Identification>
+  <Discipline_Area>
+  <msn:Mission_Information>
+    <msn:mission_phase_name>VESTA SCIENCE APPROACH</msn:mission_phase_name>
+    <msn:mission_phase_identifier>VSA</msn:mission_phase_identifier>
+    <msn:spacecraft_clock_start_count>0357845426.000</msn:spacecraft_clock_start_count>
+    <msn:spacecraft_clock_stop_count>0366292835.000</msn:spacecraft_clock_stop_count>
+  </msn:Mission_Information>
+  <geom:Geometry>
+    <geom:SPICE_Kernel_Files>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>naif0010.tls</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_203_sclkscet_00039.tsc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+    </geom:SPICE_Kernel_Files>
+  </geom:Geometry>
+    <proc:Processing_Information>
+    <Local_Internal_Reference>
+      <local_identifier_reference>table</local_identifier_reference>
+      <local_reference_type>processing_information_to_data_object</local_reference_type>
+    </Local_Internal_Reference>
+    <proc:Process> 
+      <proc:Software>
+        <proc:name>GRD_L1B_PIPELINE</proc:name>
+        <proc:software_version_id>Version 1.0</proc:software_version_id>
+      </proc:Software>
+    </proc:Process>
+  </proc:Processing_Information>  
+</Discipline_Area>
+  </Observation_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-ceres:document:grd_l1b_bgo_data_processing_v4_1</lid_reference>
+      <reference_type>data_to_document</reference_type>
+      <comment>Dawn's gamma ray and neutron detector: BGO data processing</comment>
+    </Internal_Reference>
+  </Reference_List>
+  <File_Area_Observational>
+    <File>
+      <file_name>GRD-L1B-110505-110810_140930-VSA-BGOC.TAB</file_name>
+      <creation_date_time>2014-09-30T19:04:29Z</creation_date_time>
+      <records>33165</records>
+      <md5_checksum>88c3a4f5d4d48654ff24a90dd0058316</md5_checksum>
+    </File>
+    <Table_Character>
+      <local_identifier>table</local_identifier>
+      <offset unit="byte">0</offset>
+      <records>33165</records>
+      <description>
+  This data file contains a time series of corrected and calibrated pulse     
+  height spectra measured by GRaND's bismuth germanate (BGO) scintillator     
+  during Vesta encounter. Each row contains the spacecraft clock (SCLK) ticks 
+  and spacecraft event UTC time (SCET_UTC) corresponding to the end of the    
+  science accumulation interval (accurate to 1s). The ephemeris time for the  
+  midpoint of the science interval is also included. Each row also contains   
+  the corresponding 1024-channel BGO spectrum accumulated. Each spectrum has  
+  been subjected to the following corrections:                                
+                                                                              
+    - Removal of analog-to-digital (ADC) differential nonlinearity artifacts  
+    - Gain and offset correction to put each spectrum on the same pulse height
+                                                                              
+  For each channel, the corresponding mid-point pulse height can be determined
+  by multiplying channel index (0-1023) by 8.9 keV/channel.                   
+                                                                              
+  The processing steps, including criteria for including spectra in the time  
+  series, are described by Yamashita and Prettyman, ''Dawn's Gamma Ray and    
+  Neutron Detector: BGO Data Processing,'' which can be found in in the       
+  document collection of this bundle.
+      </description>
+      <record_delimiter>Carriage-Return Line-Feed</record_delimiter>
+      <Record_Character>
+        <fields>3</fields>
+        <groups>1</groups>
+        <record_length unit="byte">6188</record_length>
+        <Field_Character>
+          <name>SCLK</name>
+          <field_number>1</field_number>
+          <field_location unit="byte">1</field_location>
+          <data_type>ASCII_Integer</data_type>
+          <field_length unit="byte">10</field_length>
+          <field_format>%10d</field_format>
+          <unit>Seconds</unit>
+          <description>
+    SCLK ticks at the end of the science accumulation interval (s) Each       
+    science data record has a unique SCLK value, which can be used as an      
+    identifier.                                                               
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>SCET_UTC</name>
+          <field_number>2</field_number>
+          <field_location unit="byte">11</field_location>
+          <data_type>ASCII_Date_Time_YMD</data_type>
+          <field_length unit="byte">20</field_length>
+          <field_format>%20s</field_format>
+          <description>
+    UTC S/C event time (SCET) at the midpoint of the science accumulation     
+    interval.                                                                 
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>ET_MID</name>
+          <field_number>3</field_number>
+          <field_location unit="byte">31</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">12</field_length>
+          <field_format>%12.1f</field_format>
+          <unit>Seconds</unit>
+          <description>
+    Ephemeris time at the midpoint of the science accumulation interval (s).  
+          </description>
+        </Field_Character>
+        <Group_Field_Character>
+          <name>BGOC</name>
+          <group_number>1</group_number>
+          <repetitions>1024</repetitions>
+          <fields>1</fields>
+          <groups>0</groups>
+          <description>
+    1024-channel, calibrated BGO spectrum. The pulse height of each channel   
+    I=0,1023 is given by 8.9 x I with units of keV.                           
+          </description>
+          <group_location unit="byte">43</group_location>
+          <group_length unit="byte">6144</group_length>
+          <Field_Character>
+            <name>BGOC_element</name>
+            <field_location unit="byte">1</field_location>
+            <data_type>ASCII_Integer</data_type>
+            <field_length unit="byte">6</field_length>
+            <field_format>%6d</field_format>
+            <unit>Counts</unit>
+          </Field_Character>
+        </Group_Field_Character>
+      </Record_Character>
+    </Table_Character>
+  </File_Area_Observational>
+</Product_Observational>
