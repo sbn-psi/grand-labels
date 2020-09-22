@@ -4,14 +4,22 @@ from bs4 import BeautifulSoup
 import sys
 import os
 import itertools
+import json
 
 def main(argv=None):
     if not argv:
         argv = sys.argv
-    dirname = sys.argv[1]
-    outfilename = sys.argv[2]
 
-    build_inventory(dirname, outfilename)
+    bundles = json.load(open("bundles.json"))
+    for bundle in bundles:
+        bundle_id = bundle["bundle_id"]
+        collections = bundle["collections"]
+        for collection in collections:
+            collection_id = collection["collection_id"]
+            dirname = os.path.join(bundle_id, collection_id)
+            outfilepath = os.path.join(dirname, "collection_inventory_" + collection_id + ".csv")
+            build_inventory(dirname, outfilepath)
+
 
 def build_inventory(dirname, outfilename):
     filenames = get_product_filenames(dirname)
