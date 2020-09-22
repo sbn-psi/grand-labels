@@ -1,0 +1,778 @@
+<?xml version="1.0"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1A00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/proc/v1/PDS4_PROC_1900.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://pds.nasa.gov/pds4/geom/PDS4_GEOM_1900_1510.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<Product_Observational 
+  xmlns="http://pds.nasa.gov/pds4/pds/v1"   
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:msn="http://pds.nasa.gov/pds4/msn/v1"
+  xmlns:proc="http://pds.nasa.gov/pds4/proc/v1"
+  xmlns:geom="http://pds.nasa.gov/pds4/geom/v1"
+  xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1A00.xsd
+                      http://pds.nasa.gov/pds4/proc/v1 https://pds.nasa.gov/pds4/disp/v1/PDS4_PROC_1900.xsd
+                      http://pds.nasa.gov/pds4/msn/v1 https://pds.nasa.gov/pds4/msn/v1/PDS4_MSN_1700.xsd
+                      http://pds.nasa.gov/pds4/geom/v1 https://pds.nasa.gov/pds4/geom/PDS4_GEOM_1900_1510.xsd"
+>
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:dawn-grand-vesta:data_calibrated:grd-l1b-110503-120809_141009-epg</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>GRD-L1B-110503-120809_141009-EPG</title>
+    <information_model_version>1.10.0.0</information_model_version>
+    <product_class>Product_Observational</product_class>
+    <Citation_Information>
+      <author_list>Prettyman, T. H.</author_list>
+      <publication_year>2020</publication_year>
+      <description>GRaND level 1b Vesta ephemeris, pointing and geometry</description>
+    </Citation_Information>
+    <Modification_History>
+      <Modification_Detail>
+        <modification_date>2020-04-14</modification_date>
+        <version_id>1.0</version_id>
+        <description>PDS4 migration of GRD-L1B-110503-120809_141009-EPG.TAB from PDS3 dataset DAWN-A-GRAND-3-RDR-VESTA-COUNTS-V1.0</description>
+      </Modification_Detail>
+    </Modification_History>
+  </Identification_Area>
+  <Observation_Area>
+    <Time_Coordinates>
+      <start_date_time>2011-05-03T16:36:19Z</start_date_time>
+      <stop_date_time>2012-08-09T01:41:33Z</stop_date_time>
+    </Time_Coordinates>
+    <Primary_Result_Summary>
+      <purpose>Science</purpose>
+      <processing_level>Calibrated</processing_level>
+    </Primary_Result_Summary>
+    <Investigation_Area>
+      <name>DAWN MISSION TO VESTA AND CERES</name>
+      <type>Mission</type>
+      <Internal_Reference>
+        <lid_reference>urn:nasa:pds:context:investigation:mission.dawn_mission_to_vesta_and_ceres</lid_reference>
+        <reference_type>data_to_investigation</reference_type>
+      </Internal_Reference>
+    </Investigation_Area>
+    <Observing_System>
+      <name>Dawn Spacecraft + GRaND</name>
+      <Observing_System_Component>
+        <name>DAWN</name>
+        <type>Spacecraft</type>
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.dawn</lid_reference>
+          <reference_type>is_instrument_host</reference_type>
+        </Internal_Reference>
+      </Observing_System_Component>
+      <Observing_System_Component>
+        <name>GAMMA-RAY AND NEUTRON DETECTOR</name>
+        <type>Instrument</type>
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:context:instrument:dawn.grand</lid_reference>
+          <reference_type>is_instrument</reference_type>
+        </Internal_Reference>
+      </Observing_System_Component>
+    </Observing_System>
+    <Target_Identification>
+      <name>(4) Vesta</name>
+      <type>Asteroid</type>
+      <Internal_Reference>
+        <lid_reference>urn:nasa:pds:context:target:asteroid.4_vesta</lid_reference>
+        <reference_type>data_to_target</reference_type>
+      </Internal_Reference>
+    </Target_Identification>
+  <Discipline_Area>
+  <msn:Mission_Information>
+    <msn:mission_phase_name>VESTA SCIENCE APPROACH</msn:mission_phase_name>
+    <msn:mission_phase_identifier>VSA</msn:mission_phase_identifier>
+    <msn:spacecraft_clock_start_count>0357712681.000</msn:spacecraft_clock_start_count>
+    <msn:spacecraft_clock_stop_count>0397748667.000</msn:spacecraft_clock_stop_count>
+  </msn:Mission_Information>
+  <msn:Mission_Information>
+    <msn:mission_phase_name>VESTA SCIENCE SURVEY (VSS)</msn:mission_phase_name>
+    <msn:mission_phase_identifier>VSS</msn:mission_phase_identifier>
+  </msn:Mission_Information>
+  <msn:Mission_Information>
+    <msn:mission_phase_name>VESTA TRANSFER TO HAMO (VTH)</msn:mission_phase_name>
+    <msn:mission_phase_identifier>VTH</msn:mission_phase_identifier>
+  </msn:Mission_Information>
+  <msn:Mission_Information>
+    <msn:mission_phase_name>VESTA SCIENCE HAMO (VSH)</msn:mission_phase_name>
+    <msn:mission_phase_identifier>VSH</msn:mission_phase_identifier>
+  </msn:Mission_Information>
+  <msn:Mission_Information>
+    <msn:mission_phase_name>VESTA TRANSFER TO LAMO (VTL)</msn:mission_phase_name>
+    <msn:mission_phase_identifier>VTL</msn:mission_phase_identifier>
+  </msn:Mission_Information>
+  <msn:Mission_Information>
+    <msn:mission_phase_name>VESTA SCIENCE LAMO (VSL)</msn:mission_phase_name>
+    <msn:mission_phase_identifier>VSL</msn:mission_phase_identifier>
+  </msn:Mission_Information>
+  <msn:Mission_Information>
+    <msn:mission_phase_name>VESTA TRANSFER TO HAMO 2 (VT2)</msn:mission_phase_name>
+    <msn:mission_phase_identifier>VT2</msn:mission_phase_identifier>
+  </msn:Mission_Information>
+  <msn:Mission_Information>
+    <msn:mission_phase_name>VESTA SCIENCE HAMO 2 (VH2)</msn:mission_phase_name>
+    <msn:mission_phase_identifier>VH2</msn:mission_phase_identifier>
+  </msn:Mission_Information>
+  <msn:Mission_Information>
+    <msn:mission_phase_name>VESTA TRANSFER TO CERES (VTC)</msn:mission_phase_name>
+    <msn:mission_phase_identifier>VTC</msn:mission_phase_identifier>
+  </msn:Mission_Information>
+  <geom:Geometry>
+    <geom:SPICE_Kernel_Files>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>naif0010.tls</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_203_sclkscet_00039.tsc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_vesta_v00.tf</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_v12.tf</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_vesta_v04b.tpc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_grand_v00.ti</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>de421.bsp</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>sb_vesta_nav_120628.bsp</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_rec_110416_110802_110913_v1.bsp</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_rec_110802_110831_110922_v1.bsp</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_rec_110831_110928_111221_v1.bsp</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_rec_110928_111102_120615_v1.bsp</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_rec_111102_111210_120618_v1.bsp</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_rec_111211_120501_120620_v1.bsp</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_rec_120501_120611_120625_v1.bsp</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_rec_120611_120724_121101_v1.bsp</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_rec_120724_120913_121213_v1.bsp</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110502_110508.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110509_110515.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110516_110522.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110523_110529.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110530_110605.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110606_110612.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110613_110619.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110620_110626.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110627_110703.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110704_110710.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110711_110717.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110718_110724.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110725_110731.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110801_110807.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110808_110814.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110815_110821.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110822_110828.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110829_110904.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110905_110911.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110912_110918.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110919_110925.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_110926_111002.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_111003_111009.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_111010_111016.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_111017_111023.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_111024_111030.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_111031_111106.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_111107_111113.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_111114_111120.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_111121_111127.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_111128_111204.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_111205_111211.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_111212_111218.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_111219_111225.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_111226_120101.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120102_120108.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120109_120115.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120116_120122.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120123_120129.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120130_120205.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120206_120212.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120213_120219.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120220_120226.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120227_120304.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120305_120311.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120312_120318.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120319_120325.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120326_120401.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120402_120408.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120409_120415.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120416_120422.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120423_120429.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120430_120506.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120507_120513.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120514_120520.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120521_120527.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120528_120603.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120604_120610.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120611_120617.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120618_120624.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120625_120701.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120702_120708.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120709_120715.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120716_120722.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120723_120729.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120730_120805.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+      <geom:SPICE_Kernel_Identification>
+        <geom:spice_kernel_file_name>dawn_sc_120806_120812.bc</geom:spice_kernel_file_name>
+      </geom:SPICE_Kernel_Identification>
+    </geom:SPICE_Kernel_Files>
+  </geom:Geometry>
+    <proc:Processing_Information>
+    <Local_Internal_Reference>
+      <local_identifier_reference>table</local_identifier_reference>
+      <local_reference_type>processing_information_to_data_object</local_reference_type>
+    </Local_Internal_Reference>
+    <proc:Process> 
+      <proc:Software>
+        <proc:name>GRD_L1B_PIPELINE</proc:name>
+        <proc:software_version_id>Version 1.0</proc:software_version_id>
+      </proc:Software>
+    </proc:Process>
+  </proc:Processing_Information>
+</Discipline_Area>
+  </Observation_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-vesta:document:grd_l1b_ephemeris_pointing_geometry_v3</lid_reference>
+      <reference_type>data_to_document</reference_type>
+      <comment>Dawn's gamma ray and neutron detector: Ephemeris, pointing &amp; geometry at Vesta and Ceres</comment>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-vesta:SPICE:dawn_vesta_v04b.tpc</lid_reference>
+       <reference_type>data_to_document</reference_type>
+       <comment>SPICE planetary constants kernel used to determine position in Vesta's fixed frame, Claudia coordinate system.</comment>
+     </Internal_Reference>
+     <Internal_Reference>
+        <lid_reference>urn:nasa:pds:dawn-grand-vesta:data_reduced:Gaskell_Claudia_2014_05_13_dec1_140802.stl</lid_reference>
+        <reference_type>data_to_geometry</reference_type>
+        <comment>Shape model used in solid angle calculations: STereoLithography (STL) format (binary)</comment>
+     </Internal_Reference>
+     <External_Reference>
+       <doi>10.1007/s11214-011-9862-0</doi>
+       <reference_text>Prettyman T.H., Feldman W.C., McSween H.Y., Jr., Dingler R.D., Enemark D.C., Patrick D.E., Storms S.A., Hendricks J.S., Morgenthaler J.P., Pitman K.M. &amp; Reedy R.C. (2011) Dawn's gamma ray and neutron detector. Space Science Reviews, 163, 371-459.</reference_text>
+     </External_Reference>
+     <External_Reference>
+       <doi>10.1126/science.1225354</doi>
+       <reference_text>Prettyman T.H., Mittlefehldt D.W., Yamashita N., Lawrence D.J., Beck A.W., Feldman W.C., McCoy T.J., McSween H.Y., Toplis M.J., Titus T.N., Tricarico P., Reedy R.C., Hendricks J.S., Forni O., Le Corre L., Li J.Y., Mizzon H., Reddy V., Raymond C.A. &amp; Russell C.T. (2012) Elemental mapping by Dawn reveals exogenic H in Vesta's regolith. Science, 338, 242-6.</reference_text>
+     </External_Reference>
+     <External_Reference>
+       <doi>10.1126/science.aah6765</doi>
+       <reference_text>Prettyman T.H., Yamashita N., Toplis M.J., McSween H.Y., Schorghofer N., Marchi S., Feldman W.C., Castillo-Rogez J., Forni O., Lawrence D.J., Ammannito E., Ehlmann B.L., Sizemore H.G., Joy S.P., Polanskey C.A., Rayman M.D., Raymond C.A. &amp; Russell C.T. (2017) Extensive water ice within Ceres' aqueously altered regolith: Evidence from nuclear spectroscopy. Science, 355, 55-59.</reference_text>
+     </External_Reference>
+  </Reference_List>
+  <File_Area_Observational>
+    <File>
+      <file_name>GRD-L1B-110503-120809_141009-EPG.TAB</file_name>
+      <creation_date_time>2014-08-28T00:38:59Z</creation_date_time>
+      <records>301595</records>
+      <md5_checksum>7fce42a447cd29127f4276beb0bf30e1</md5_checksum>
+    </File>
+    <Table_Character>
+      <local_identifier>table</local_identifier>
+      <offset unit="byte">0</offset>
+      <records>301595</records>
+      <description>
+        This time series data set contains ephemeris, pointing and geometry (EPG)
+        data for the GRaND instrument during Vesta encounter. A detailed description
+        of the methods and parameters are provided in the Ephemeris, Pointing and
+        Geometry document included in the bundle.
+
+        All SPICE and solid angle calculations were carried out in the VESTA_FIXED
+        frame, Claudia coordinate system using a Planetary Constants Kernel (PCK) 
+        with the latest pole RA/DEC). The PCK (dawn_vesta_v04b.tpc) is included in 
+        this bundle. The spacecraft position LON, POS_X, and POS_Y) was then rotated
+        into the Claudia Double Prime (CDP) coordinate system.
+
+        Positions were rotated into the CDP system from Claudia using the following
+        procedure:
+
+        1. Subtract 210 degrees from Claudia longitude
+        2. If the result is less than -180 degrees, add 360
+
+        The cartesian coordinates of the spacecraft in the CDP fixed frame (POS_X,
+        POS_Y, POS_Z) was determined from Claudia values (POS_XC, POS_YC, POS_ZC)
+        by:
+
+        PHI= arc_tangent( POS_YC, POS_XC )
+        W = POS_ZC / DIST
+        GAMMA = SQRT ( 1 - W^2 )
+        POS_X = GAMMA * cosine( PHI )
+        POS_Y = GAMMA &amp; sine ( PHI )
+        POS_Z = POS_ZC
+      </description>
+      <record_delimiter>Carriage-Return Line-Feed</record_delimiter>
+      <Record_Character>
+        <fields>21</fields>
+        <groups>0</groups>
+        <record_length unit="byte">221</record_length>
+        <Field_Character>
+          <name>SCLK</name>
+          <field_number>1</field_number>
+          <field_location unit="byte">1</field_location>
+          <data_type>ASCII_Integer</data_type>
+          <field_length unit="byte">10</field_length>
+          <field_format>%10d</field_format>
+          <unit>Seconds</unit>
+          <description>
+    SCLK ticks at the end of the science accumulation interval (1s precision). 
+    SCLK serves as a 9-digit serial code that uniquely identifies each science
+    data record. GRaND L1A and L1B science data files include SCLK as an
+    identifier, such that values for the same record can be easily identified
+    in different tables.
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>SCET_UTC</name>
+          <field_number>2</field_number>
+          <field_location unit="byte">11</field_location>
+          <data_type>ASCII_Date_Time_YMD</data_type>
+          <field_length unit="byte">20</field_length>
+          <field_format>%20s</field_format>
+          <description>
+    UTC S/C event time (SCET) at the midpoint of the science accumulation
+    interval, determined by SPICE time conversion routines given TELREADOUT
+    and the SCLK value marking the end of the interval.
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>ET_MID</name>
+          <field_number>3</field_number>
+          <field_location unit="byte">31</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">12</field_length>
+          <field_format>%12.1f</field_format>
+          <unit>Seconds</unit>
+          <description>
+    Ephemeris time at the midpoint of the science accumulation interval (s),
+    determined by SPICE time conversion routines given TELREADOUT and the 
+    SCLK value marking the end of the interval.
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>PHASE</name>
+          <field_number>4</field_number>
+          <field_location unit="byte">43</field_location>
+          <data_type>ASCII_String</data_type>
+          <field_length unit="byte">4</field_length>
+          <field_format>%4s</field_format>
+          <description>
+    Abbreviation for the mission phase.
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>TELREADOUT</name>
+          <field_number>5</field_number>
+          <field_location unit="byte">47</field_location>
+          <data_type>ASCII_Integer</data_type>
+          <field_length unit="byte">5</field_length>
+          <field_format>%5d</field_format>
+          <unit>Seconds</unit>
+          <description>
+    Length of the accumulation interval (s).
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>LIVE_TIME</name>
+          <field_number>6</field_number>
+          <field_location unit="byte">52</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">8</field_length>
+          <field_format>%8.2f</field_format>
+          <unit>Seconds</unit>
+          <description>
+    Live time (s). Values are provided for science records for which the associated
+    SOH packets can be identified. Otherwise, MISSING_CONSTANT is listed.
+          </description>
+          <Special_Constants>
+            <missing_constant>-999.00</missing_constant>
+          </Special_Constants>
+        </Field_Character>
+        <Field_Character>
+          <name>LON</name>
+          <field_number>7</field_number>
+          <field_location unit="byte">60</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">8</field_length>
+          <field_format>%8.2f</field_format>
+          <unit>Degrees</unit>
+          <description>
+    Spacecraft longitude at the midpoint of the accumulation interval
+    in Vesta's fixed frame (CDP).
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>LAT</name>
+          <field_number>8</field_number>
+          <field_location unit="byte">68</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">8</field_length>
+          <field_format>%8.2f</field_format>
+          <unit>Degrees</unit>
+          <description>
+    Spacecraft latitude at the midpoint of the accumulation interval
+    in Vesta's fixed frame (CDP).
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>DIST</name>
+          <field_number>9</field_number>
+          <field_location unit="byte">76</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">12</field_length>
+          <field_format>%12.2f</field_format>
+          <unit>Kilometers</unit>
+          <description>
+    Distance of the spacecraft to body center at the midpoint of the 
+    accumulation interval.
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>POS_X</name>
+          <field_number>10</field_number>
+          <field_location unit="byte">88</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">12</field_length>
+          <field_format>%12.2f</field_format>
+          <unit>Kilometers</unit>
+          <description>
+    Spacecraft position (X) at the midpoint of the accumulation interval
+    in Vesta's fixed frame (CDP).
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>POS_Y</name>
+          <field_number>11</field_number>
+          <field_location unit="byte">100</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">12</field_length>
+          <field_format>%12.2f</field_format>
+          <unit>Kilometers</unit>
+          <description>
+    Spacecraft position (Y) at the midpoint of the accumulation interval
+    in Vesta's fixed frame (CDP).
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>POS_Z</name>
+          <field_number>12</field_number>
+          <field_location unit="byte">112</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">12</field_length>
+          <field_format>%12.2f</field_format>
+          <unit>Kilometers</unit>
+          <description>
+    Spacecraft position (Z) at the midpoint of the accumulation interval
+    in Vesta's fixed frame (CDP).
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>DIR_U</name>
+          <field_number>13</field_number>
+          <field_location unit="byte">124</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">13</field_length>
+          <field_format>%13.4e</field_format>
+          <description>
+    Body-center direction in S/C frame (x cosine) at the midpoint of the
+    acccumulation interval.
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>DIR_V</name>
+          <field_number>14</field_number>
+          <field_location unit="byte">137</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">13</field_length>
+          <field_format>%13.4e</field_format>
+          <description>
+    Body-center direction in S/C frame (y cosine) at the midpoint of the
+    acccumulation interval.
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>DIR_W</name>
+          <field_number>15</field_number>
+          <field_location unit="byte">150</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">13</field_length>
+          <field_format>%13.4e</field_format>
+          <description>
+    Body-center direction in S/C frame (z cosine)  at the midpoint of the
+    acccumulation interval.
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>SOLID_ANGLE</name>
+          <field_number>16</field_number>
+          <field_location unit="byte">163</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">11</field_length>
+          <field_format>%11.3e</field_format>
+          <unit>Steradians</unit>
+          <description>
+    Solid angle subtended by Vesta at the spacecraft.
+    
+    The measurement geometry is determined by the solid angle subtended by Vesta
+    at the spacecraft (with units of steradians). Counting rates, with
+    background contributions removed, vary in proportion to the solid angle.
+    Thus, the solid angle values can be used to remove measurement geometry
+    effects to reveal compositional variations on the surface of Vesta.
+
+    SOLID_ANGLE was determined using the methods described by Prettyman et al.
+    (2011, 2012, 2017) using a Digital Terrain Model provided by R. Gaskell
+    (GASKELL_CLAUDIA_2014_05_13, priv. comm.). The interconnected
+    quadrilateral (ICQ) format was converted to a triangle-vertex model, which
+    was decimated, retaining 1% of the triangles. The decimated shape model used
+    for the solid angle calculation is included in this bundle as a
+    STereoLithography (STL) format (binary) file.
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>EQUIVALENT_ALTITUDE</name>
+          <field_number>17</field_number>
+          <field_location unit="byte">174</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">12</field_length>
+          <field_format>%12.2f</field_format>
+          <unit>Kilometers</unit>
+          <description>
+    Equivalent altitude of the spacecraft if Vesta were a sphere of 261.5
+    km radius. 
+    
+    The spacecraft EQUIVALENT_ALTITUDE (km) was determined for each science
+    accumulation interval from SOLID_ANGLE. The EQUIVALENT_ALTITUDE is the
+    distance from a sphere of the same volume as Vesta (with a radius, R_EQ of
+    261.58km) that gives the same SOLID_ANGLE as determined from the shape model:
+
+    EQUIVALENT_ALTITUDE = R_EQ / sqrt{ 1 - [ 1 - SOLID_ANGLE/(2*PI) ]^2} - R_EQ
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>SUBSAT_DIST</name>
+          <field_number>18</field_number>
+          <field_location unit="byte">186</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">12</field_length>
+          <field_format>%12.2f</field_format>
+          <unit>Kilometers</unit>
+          <description>
+    Distance to the sub-satellite point in the body-center direction.
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>TRIPLES_RATE</name>
+          <field_number>19</field_number>
+          <field_location unit="byte">198</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">9</field_length>
+          <field_format>%9.2f</field_format>
+          <unit>Counts per second</unit>
+          <description>
+    Counting rate for coincidences between three or more sensors, used as a
+    proxy for the galactic cosmic ray flux. Values are provided for science
+    records for which the associated SOH packets can be identified. Otherwise,
+    MISSING_CONSTANT is listed.
+
+    TRIPLES_RATE is a proxy for the interaction rate of galactic cosmic rays (GCR)
+    with the instrument and can be used to correct for temporal variations in
+    gamma ray and neutron production within the regolith of Vesta. Large deviations
+    from the local mean of the time series may be due to solar energetic particle
+    events, cycling of the instrument state (e.g. power-on and HV ramp up), or
+    other conditions, including corrupt data.
+          </description>
+          <Special_Constants>
+            <missing_constant>-999.00</missing_constant>
+          </Special_Constants>
+        </Field_Character>
+        <Field_Character>
+          <name>INSTR_CONFIG</name>
+          <field_number>20</field_number>
+          <field_location unit="byte">207</field_location>
+          <data_type>ASCII_Integer</data_type>
+          <field_length unit="byte">4</field_length>
+          <field_format>%4d</field_format>
+          <description>
+    Instrument configuration (if 0, the instrument was not fully configured   
+    for science data acquisition; if 1, then the instrument was fully         
+    configured and HVs were at their nominal settings (HV1-6 = 1059-,         
+    1000-, 1029-, 1059-, 735-, 1000-V); if 2, then the instrument was fully   
+    configured with all sensors at their nominal settings, except HV1 (+Z     
+    Phoswich), which was set to 1088V.                                        
+          </description>
+        </Field_Character>
+        <Field_Character>
+          <name>T_BGO</name>
+          <field_number>21</field_number>
+          <field_location unit="byte">211</field_location>
+          <data_type>ASCII_Real</data_type>
+          <field_length unit="byte">9</field_length>
+          <field_format>%9.2f</field_format>
+          <unit>Counts per second</unit>
+          <description>
+    BGO temperature reading averaged over the science accumulation interval.
+    The BGO temperature data is useful for idenfiying times when GRaND's internal
+    temperatures have stabilized following power on. The sensor is well isolated
+    with a thermal time constant of about 24 hours.
+          </description>
+          <Special_Constants>
+            <missing_constant>-999.00</missing_constant>
+          </Special_Constants>
+        </Field_Character>
+      </Record_Character>
+    </Table_Character>
+  </File_Area_Observational>
+</Product_Observational>

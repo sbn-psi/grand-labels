@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1A00.sch" schematypens="http://purl.oclc.org/dsdl/schematron" ?>
+<Product_SPICE_Kernel xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1A00.xsd">
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:dawn-grand-vesta:spice_kernels:dawn_vesta_v04b</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Dawn Vesta Planetary Constants</title>
+        <information_model_version>1.10.0.0</information_model_version>
+        <product_class>Product_SPICE_Kernel</product_class>
+        <Citation_Information>
+            <author_list>Prettyman, T.H.</author_list>
+            <publication_year>2020</publication_year>
+            <description>SPICE PCK file containing constants for
+            Vesta, created by NAIF, JPL. Vesta rotation constants provided in this PCK
+            are for the ``DAWN-Claudia'' coordinate system used by the project during
+            operations at Vesta. This PCK is obsolete and superseded by the
+            ``dawn_vesta_v06.tpc'' PCK providing Vesta rotation constants for the
+            ``Claudia Double-Prime'' coordinate system. This version 04b is a modified
+            version of ``dawn_vesta_v04.tpc'' for use with the Gaskell Claudia Post
+            Vesta Shape model (v. 2014-05-20).
+        </description>
+        </Citation_Information>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2020-04-21</modification_date>
+                <version_id>1.0</version_id>
+                <description>PDS4 migration of dawn_vesta_v04b.tpc from PDS3 dataset DAWN-A-GRAND-3-RDR-VESTA-COUNTS-V1.0.</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Context_Area>
+        <Time_Coordinates>
+            <start_date_time xsi:nil="true" nilReason="inapplicable"/>
+            <stop_date_time xsi:nil="true" nilReason="inapplicable" />
+          </Time_Coordinates>
+        <Primary_Result_Summary>
+            <purpose>Observation Geometry</purpose>
+            <processing_level>Derived</processing_level>
+        </Primary_Result_Summary>
+        <Investigation_Area>
+            <name>DAWN MISSION TO VESTA AND CERES</name>
+            <type>Mission</type>
+            <Internal_Reference>
+                <lid_reference>urn:nasa:pds:context:investigation:mission.dawn_mission_to_vesta_and_ceres</lid_reference>
+                <reference_type>data_to_investigation</reference_type>
+            </Internal_Reference>
+        </Investigation_Area>
+        <Observing_System>
+            <name>Dawn Spacecraft + GRaND</name>
+            <Observing_System_Component>
+                <name>DAWN</name>
+                <type>Spacecraft</type>
+                <Internal_Reference>
+                    <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.dawn</lid_reference>
+                    <reference_type>is_instrument_host</reference_type>
+                </Internal_Reference>
+            </Observing_System_Component>
+            <Observing_System_Component>
+                <name>GAMMA-RAY AND NEUTRON DETECTOR</name>
+                <type>Instrument</type>
+                <Internal_Reference>
+                    <lid_reference>urn:nasa:pds:context:instrument:dawn.grand</lid_reference>
+                    <reference_type>is_instrument</reference_type>
+                </Internal_Reference>
+            </Observing_System_Component>
+        </Observing_System>
+        <Target_Identification>
+            <name>(1) Ceres</name>
+            <type>Dwarf Planet</type>
+            <Internal_Reference>
+                <lid_reference>urn:nasa:pds:context:target:dwarf_planet.1_ceres</lid_reference>
+                <reference_type>data_to_target</reference_type>
+            </Internal_Reference>
+        </Target_Identification>
+        <Target_Identification>
+            <name>(4) Vesta</name>
+            <type>Asteroid</type>
+            <Internal_Reference>
+                <lid_reference>urn:nasa:pds:context:target:asteroid.4_vesta</lid_reference>
+                <reference_type>data_to_target</reference_type>
+            </Internal_Reference>
+        </Target_Identification>
+    </Context_Area>
+    <File_Area_SPICE_Kernel>
+        <File>
+            <file_name>dawn_vesta_v04b.tpc</file_name>
+            <file_size unit="byte">10312</file_size>
+            <md5_checksum>41e6e52a638ba57b0a69a24300e45184</md5_checksum>
+        </File>
+        <SPICE_Kernel>
+            <offset unit="byte">0</offset>
+            <object_length unit="byte">10312</object_length>
+            <parsing_standard_id>SPICE</parsing_standard_id>
+            <kernel_type>PCK</kernel_type>
+            <encoding_type>Character</encoding_type>
+        </SPICE_Kernel>
+    </File_Area_SPICE_Kernel>
+</Product_SPICE_Kernel>
