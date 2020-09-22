@@ -3,6 +3,7 @@
         "bundle_id":"dawn-grand-ancillary",
         "bundle_title":"DAWN GRaND Ancillary Bundle",
         "bundle_description":"ancillary",
+        "author_list":"Prettyman, T.H.; Yamashita, N.; Neese, C.; Stone, J",
         "collections": [
             {
                 "collection_id":"document",
@@ -24,6 +25,7 @@
         "bundle_id":"dawn-grand-cruise",
         "bundle_title":"DAWN GRaND Cruise Bundle",
         "bundle_description":"cruise",
+        "author_list":"Prettyman, T.H.",
         "collections": [
             {
                 "collection_id":"browse",
@@ -52,6 +54,7 @@
         "bundle_id":"dawn-grand-mars",
         "bundle_title":"DAWN GRaND Mars Bundle",
         "bundle_description":"Mars",
+        "author_list":"Prettyman, T.H.",
         "collections": [
             {
                 "collection_id":"browse",
@@ -87,6 +90,7 @@
         "bundle_id":"dawn-grand-vesta",
         "bundle_title":"DAWN GRaND Vesta Bundle",
         "bundle_description":"Vesta",
+        "author_list":"Prettyman, T.H.; Yamashita, N.",
         "collections": [
             {
                 "collection_id":"browse",
@@ -137,6 +141,7 @@
         "bundle_id":"dawn-grand-ceres",
         "bundle_title":"DAWN GRaND Ceres Bundle",
         "bundle_description":"Ceres",
+        "author_list":"Prettyman, T.H.; Yamashita, N.",
         "collections": [
             {
                 "collection_id":"browse",
