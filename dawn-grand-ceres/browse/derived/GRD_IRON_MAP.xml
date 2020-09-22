@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1A00.sch"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<Product_Browse xmlns="http://pds.nasa.gov/pds4/pds/v1" 
+    xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1A00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:dawn-grand-ceres:browse:grd_iron_map</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>Dawn GRaND Ceres map of iron concentration - GRD_IRON_MAP.pdf</title>
+    <information_model_version>1.10.0.0</information_model_version>
+    <product_class>Product_Browse</product_class>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-derived:data_derived_ceres:grd_iron_map</lid_reference>
+      <reference_type>browse_to_data</reference_type>
+      <comment>This is a reference to the data file corresponding to this browse plot.</comment>
+    </Internal_Reference>
+  </Reference_List>
+  <File_Area_Browse>
+    <File>
+      <file_name>GRD_IRON_MAP.pdf</file_name>
+      <local_identifier>BROWSE_FILE</local_identifier>
+      <creation_date_time>2020-03-18</creation_date_time>
+      <md5_checksum>33aaecf0da42c55400227a626ef24a19</md5_checksum>
+      <comment>This file contains a browse plot of the Dawn GRaND Ceres map of the concentration of iron.</comment>
+      </File>
+    <Encoded_Image>
+      <local_identifier>BROWSE_IMAGE</local_identifier>
+      <offset unit="byte">0</offset>
+      <encoding_standard_id>PDF/A</encoding_standard_id>
+    </Encoded_Image>
+  </File_Area_Browse>
+</Product_Browse>
