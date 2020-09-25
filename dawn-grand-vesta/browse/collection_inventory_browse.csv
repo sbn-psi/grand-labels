@@ -77,3 +77,5 @@ P,urn:nasa:pds:dawn-grand-vesta:browse:grd_l1a_120801_120808_report::1.0
 P,urn:nasa:pds:dawn-grand-vesta:browse:grd_l1a_120808_120809_report::1.0
 P,urn:nasa:pds:dawn-grand-vesta:browse:grd_neutron_absorption_map::1.0
 P,urn:nasa:pds:dawn-grand-vesta:browse:vesta_encounter_timeline::1.0
+P,urn:nasa:pds:dawn-grand-vesta:document:dawn_grand_vesta_encounter_timeline.pdf::1.0
+P,urn:nasa:pds:dawn-grand-vesta:document:dawn_grand_vesta_gamma_ray_spectra_by_subphase.pdf::1.0

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.sch" 
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<Product_Document xmlns="http://pds.nasa.gov/pds4/pds/v1"
+	xmlns:pds="http://pds.nasa.gov/pds4/pds/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.xsd">
+    
+    <Identification_Area>
+        <logical_identifier>urn:nasa:pds:dawn-grand-ancillary:document:dawn_grand_ephemeris_pointing_geometry.pdf</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Dawn's Gamma Ray and Neutron Detector: Ephemeris, pointing and geometry</title>
+        <information_model_version>1.11.0.0</information_model_version>
+        <product_class>Product_Document</product_class>
+        
+        <Citation_Information>
+            <author_list>Prettyman, T.H.</author_list>
+            <publication_year>2020</publication_year>
+            <doi>10.26033/dd8n-nq28</doi>
+            <description>
+              Dawn's Gamma Ray and Neutron Detector: Ephemeris, pointing and geometry
+            </description>
+        </Citation_Information>
+        
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2020-08-11</modification_date>
+                <version_id>1.0</version_id>
+                <description>
+                  Initial release.
+                </description>
+            </Modification_Detail>
+        </Modification_History>  
+    </Identification_Area>
+    
+    <Context_Area>
+        <Investigation_Area>
+            <name>Dawn Mission to Vesta and Ceres</name>
+            <type>Mission</type>
+            <Internal_Reference>
+                <lid_reference>urn:nasa:pds:context:investigation:mission.dawn_mission_to_vesta_and_ceres</lid_reference>
+                <reference_type>document_to_investigation</reference_type>
+            </Internal_Reference>
+        </Investigation_Area>
+        
+        <Observing_System>
+            <name>Dawn spacecraft + GRaND</name>
+            <Observing_System_Component>
+                <name>Dawn</name>
+                <type>Spacecraft</type>
+                <Internal_Reference>
+                    <lid_reference>urn:nasa:pds:context:instrument_host:spacecraft.dawn</lid_reference>
+                    <reference_type>is_instrument_host</reference_type>
+                </Internal_Reference>
+            </Observing_System_Component>
+            <Observing_System_Component>
+                <name>Gamma-Ray and Neutron Detector</name>
+                <type>Instrument</type>
+                <Internal_Reference>
+                    <lid_reference>urn:nasa:pds:context:instrument:dawn.grand</lid_reference>
+                    <reference_type>is_instrument</reference_type>
+                </Internal_Reference>
+            </Observing_System_Component>
+        </Observing_System>
+    </Context_Area>
+
+    <Document>
+        <document_name>Dawn's Gamma Ray and Neutron Detector: Ephemeris, pointing and geometry</document_name>
+        <author_list>Prettyman, T.H.</author_list>
+        <publication_date>2020-08-11</publication_date>
+        <description>
+            Ephemeris, pointing and geometry (EPG) data for the NASA Dawn mission’s Gamma Ray and Neutron Detector (GRaND) are described. The data are part of the Dawn GRaND Planetary Data System (PDS4) archive. The EPG data support the analysis of time-series counting data in the raw and calibrated collections for Vesta and Ceres encounters. For each encounter, the data are archived as a single text file. The file contains the position of the Dawn spacecraft in the target’s (Vesta or Ceres) fixed frame, the direction to body center in the instrument frame, the solid angle subtended by Vesta or Ceres at the spacecraft, and ancillary counting information, including live time and a proxy for the flux of galactic cosmic rays. The information can be used for a variety of purposes: for example, selection of data that meet pointing criteria and geometry corrections for counting data. Methods used to determine the quantities recorded in the EPG tables are presented. This document is essential reading for users of raw and calibrated data.
+        </description>
+        <Document_Edition>
+            <edition_name>PDF/A</edition_name>
+            <language>English</language>
+            <files>1</files>
+            <description>
+                This document is conformant to PDF/A.
+            </description>
+            <Document_File>
+                <file_name>Dawn_GRaND_ephemeris_pointing_geometry.pdf</file_name>
+                <document_standard_id>PDF/A</document_standard_id>
+            </Document_File>
+        </Document_Edition>
+    </Document>
+</Product_Document>

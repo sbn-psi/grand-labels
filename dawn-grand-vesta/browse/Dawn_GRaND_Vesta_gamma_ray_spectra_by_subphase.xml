@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.sch"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<Product_Browse xmlns="http://pds.nasa.gov/pds4/pds/v1" 
+    xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:dawn-grand-vesta:document:dawn_grand_vesta_gamma_ray_spectra_by_subphase.pdf</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>Gamma-ray spectra by Vesta mission phase</title>
+    <information_model_version>1.11.0.0</information_model_version>
+    <product_class>Product_Browse</product_class>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-vesta:data_calibrated:grd-l1b-120728-120809_140930-vtc-bgoc</lid_reference>
+      <reference_type>browse_to_data</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-vesta:data_calibrated:grd-l1b-120615-120723_140930-vh2-bgoc</lid_reference>
+      <reference_type>browse_to_data</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-vesta:data_calibrated:grd-l1b-120504-120615_140930-vt2-bgoc</lid_reference>
+      <reference_type>browse_to_data</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-vesta:data_calibrated:grd-l1b-111215-120501_140930-vsl-bgoc</lid_reference>
+      <reference_type>browse_to_data</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-vesta:data_calibrated:grd-l1b-111103-111212_140930-vtl-bgoc</lid_reference>
+      <reference_type>browse_to_data</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-vesta:data_calibrated:grd-l1b-111012-111102_140930-vsh-bgoc</lid_reference>
+      <reference_type>browse_to_data</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-vesta:data_calibrated:grd-l1b-110901-110922_140930-vth-bgoc</lid_reference>
+      <reference_type>browse_to_data</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-vesta:data_calibrated:grd-l1b-110811-110831_140930-vss-bgoc</lid_reference>
+      <reference_type>browse_to_data</reference_type>
+    </Internal_Reference>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-vesta:data_calibrated:grd-l1b-110505-110810_140930-vsa-bgoc</lid_reference>
+      <reference_type>browse_to_data</reference_type>
+    </Internal_Reference>
+  </Reference_List>
+  <File_Area_Browse>
+    <File>
+      <file_name>Dawn_GRaND_Vesta_gamma_ray_spectra_by_subphase.pdf</file_name>
+      <local_identifier>BROWSE_FILE</local_identifier>
+      <creation_date_time>2020-09-21</creation_date_time>
+      <md5_checksum>f1a19fa2db3659d8b323a35c07247bcf</md5_checksum>
+      <comment>Graphical display of calibrated BGO spectra acquired at Vesta by mission phase</comment>
+      </File>
+    <Encoded_Image>
+      <local_identifier>BROWSE_IMAGE</local_identifier>
+      <offset unit="byte">0</offset>
+      <encoding_standard_id>PDF/A</encoding_standard_id>
+    </Encoded_Image>
+  </File_Area_Browse>
+</Product_Browse>
