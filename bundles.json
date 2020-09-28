@@ -4,6 +4,7 @@
         "bundle_title":"DAWN GRaND Ancillary Bundle",
         "bundle_description":"ancillary",
         "author_list":"Prettyman, T.H.; Yamashita, N.; Neese, C.; Stone, J",
+        "doi":"10.26033/2cqt-at57",
         "collections": [
             {
                 "collection_id":"document",
@@ -26,6 +27,7 @@
         "bundle_title":"DAWN GRaND Cruise Bundle",
         "bundle_description":"cruise",
         "author_list":"Prettyman, T.H.",
+        "doi":"10.26033/skyr-at92",
         "collections": [
             {
                 "collection_id":"browse",
@@ -55,6 +57,7 @@
         "bundle_title":"DAWN GRaND Mars Bundle",
         "bundle_description":"Mars",
         "author_list":"Prettyman, T.H.",
+        "doi":"10.26033/v138-0v94",
         "collections": [
             {
                 "collection_id":"browse",
@@ -91,6 +94,7 @@
         "bundle_title":"DAWN GRaND Vesta Bundle",
         "bundle_description":"Vesta",
         "author_list":"Prettyman, T.H.; Yamashita, N.",
+        "doi":"10.26033/ypv0-mt21",
         "collections": [
             {
                 "collection_id":"browse",
@@ -142,6 +146,7 @@
         "bundle_title":"DAWN GRaND Ceres Bundle",
         "bundle_description":"Ceres",
         "author_list":"Prettyman, T.H.; Yamashita, N.",
+        "doi":"10.26033/hf9h-pt31",
         "collections": [
             {
                 "collection_id":"browse",
