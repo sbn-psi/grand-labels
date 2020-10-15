@@ -33,7 +33,7 @@
     </Citation_Information>
     <Modification_History>
       <Modification_Detail>
-        <modification_date>2020-09-25</modification_date>
+        <modification_date>2020-10-14</modification_date>
         <version_id>1.0</version_id>
         <description>PDS4 migration of GRD-L1A-180905-180912_180920-BLP2_PZ.TAB from PDS3 dataset DAWN-A-GRAND-2-EDR-CERES-COUNTS-V1.0</description>
       </Modification_Detail>
@@ -102,6 +102,589 @@
       </proc:Software>
     </proc:Process>
   </proc:Processing_Information>  
+    <nucspec:NucSpec_Observation_Properties>
+    <nucspec:Instrument_Settings>
+      <nucspec:State_Table>
+        <Internal_Reference>
+          <lid_reference>urn:nasa:pds:dawn_grand:data:state_table</lid_reference>
+          <reference_type>nucspec_product_to_state_table</reference_type>
+        </Internal_Reference>
+        <Local_Internal_Reference>
+          <local_identifier_reference>table</local_identifier_reference>
+          <local_reference_type>state_table_to_data_table</local_reference_type>
+        </Local_Internal_Reference>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index xsi:nil="true" nilReason="missing"></nucspec:state_index>
+          <nucspec:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</nucspec:comment>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589377827</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589377827</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index>25</nucspec:state_index>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589378282</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589457907</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index xsi:nil="true" nilReason="missing"></nucspec:state_index>
+          <nucspec:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</nucspec:comment>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589458408</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589458408</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index>25</nucspec:state_index>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589458443</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589470903</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index xsi:nil="true" nilReason="missing"></nucspec:state_index>
+          <nucspec:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</nucspec:comment>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589471428</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589471428</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index>25</nucspec:state_index>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589471883</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589556058</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index xsi:nil="true" nilReason="missing"></nucspec:state_index>
+          <nucspec:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</nucspec:comment>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589556589</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589556624</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index>25</nucspec:state_index>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589556659</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589569084</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index xsi:nil="true" nilReason="missing"></nucspec:state_index>
+          <nucspec:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</nucspec:comment>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589570064</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589570064</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index>25</nucspec:state_index>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589570974</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589654694</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index xsi:nil="true" nilReason="missing"></nucspec:state_index>
+          <nucspec:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</nucspec:comment>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589654780</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589654815</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index>25</nucspec:state_index>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589654850</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589667275</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index xsi:nil="true" nilReason="missing"></nucspec:state_index>
+          <nucspec:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</nucspec:comment>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589668255</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589668255</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index>25</nucspec:state_index>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589669165</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589751975</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index xsi:nil="true" nilReason="missing"></nucspec:state_index>
+          <nucspec:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</nucspec:comment>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589752955</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589752955</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index>25</nucspec:state_index>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589752990</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589765450</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index xsi:nil="true" nilReason="missing"></nucspec:state_index>
+          <nucspec:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</nucspec:comment>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589766430</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589766430</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index>25</nucspec:state_index>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589767340</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589850150</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index xsi:nil="true" nilReason="missing"></nucspec:state_index>
+          <nucspec:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</nucspec:comment>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589851087</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589851122</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index>25</nucspec:state_index>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589851157</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589863582</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index xsi:nil="true" nilReason="missing"></nucspec:state_index>
+          <nucspec:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</nucspec:comment>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589864562</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589864562</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index>25</nucspec:state_index>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589865472</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589948282</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index xsi:nil="true" nilReason="missing"></nucspec:state_index>
+          <nucspec:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</nucspec:comment>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589949153</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589949153</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index>25</nucspec:state_index>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589949188</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589961648</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index xsi:nil="true" nilReason="missing"></nucspec:state_index>
+          <nucspec:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</nucspec:comment>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589962628</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589962628</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+        <nucspec:State_Table_Entry>
+          <nucspec:state_index>25</nucspec:state_index>
+          <nucspec:State_Time>
+            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
+            <nucspec:Time_Range_SCLK>
+              <nucspec:sclk_start_time>589963538</nucspec:sclk_start_time>
+              <nucspec:sclk_stop_time>589985378</nucspec:sclk_stop_time>
+            </nucspec:Time_Range_SCLK>
+          </nucspec:State_Time>
+        </nucspec:State_Table_Entry>
+      </nucspec:State_Table>
+    </nucspec:Instrument_Settings>
+    </nucspec:NucSpec_Observation_Properties>
+      <dawn:grand>
+        <Local_Internal_Reference>
+          <local_identifier_reference>table</local_identifier_reference>
+          <local_reference_type>grand_parameters_to_table</local_reference_type>
+        </Local_Internal_Reference>
+        <dawn:TELREADOUT_List>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589377827</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589377827</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589378282</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589457907</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">455</dawn:grand_interval>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589458408</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589458408</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589458443</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589470903</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589471428</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589471428</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589471883</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589556058</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">455</dawn:grand_interval>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589556589</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589556624</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589556659</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589569084</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589570064</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589570064</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589570974</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589654694</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">910</dawn:grand_interval>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589654780</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589654815</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589654850</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589667275</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589668255</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589668255</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589669165</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589751975</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">910</dawn:grand_interval>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589752955</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589752955</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589752990</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589765450</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589766430</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589766430</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589767340</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589850150</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">910</dawn:grand_interval>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589851087</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589851122</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589851157</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589863582</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589864562</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589864562</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589865472</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589948282</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">910</dawn:grand_interval>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589949153</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589949153</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589949188</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589961648</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589962628</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589962628</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELREADOUT>
+          <dawn:TELREADOUT>
+            <dawn:grand_start_sclk>589963538</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589985378</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">910</dawn:grand_interval>
+          </dawn:TELREADOUT>
+      </dawn:TELREADOUT_List>
+        <dawn:TELSOH_List>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589377827</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589377827</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589378282</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589457907</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589458408</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589458408</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589458443</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589470903</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589471428</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589471428</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589471883</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589556058</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589556589</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589556624</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589556659</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589569084</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589570064</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589570064</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589570974</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589654694</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589654780</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589654815</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589654850</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589667275</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589668255</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589668255</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589669165</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589751975</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589752955</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589752955</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589752990</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589765450</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589766430</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589766430</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589767340</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589850150</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589851087</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589851122</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589851157</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589863582</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589864562</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589864562</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589865472</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589948282</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589949153</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589949153</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589949188</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589961648</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589962628</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589962628</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
+            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-180905-180912_180920-STA.xml</dawn:comment>
+          </dawn:TELSOH>
+          <dawn:TELSOH>
+            <dawn:grand_start_sclk>589963538</dawn:grand_start_sclk>
+            <dawn:grand_stop_sclk>589985378</dawn:grand_stop_sclk>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
+          </dawn:TELSOH>
+      </dawn:TELSOH_List>
+      </dawn:grand>
 </Discipline_Area>
   </Observation_Area>
   <File_Area_Observational>
