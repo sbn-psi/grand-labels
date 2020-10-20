@@ -17,7 +17,7 @@
     <logical_identifier>urn:nasa:pds:dawn-grand-ancillary:miscellaneous:grd_state_table_200804</logical_identifier>
     <version_id>1.0</version_id>
     <title>GRD_STATE_TABLE_200804</title>
-    <information_model_version>1.10.0.0</information_model_version>
+    <information_model_version>1.11.0.0</information_model_version>
     <product_class>Product_Observational</product_class>
     <Citation_Information>
       <author_list>Prettyman, T. H., N. Yamashita, J. Stone</author_list>
@@ -117,10 +117,10 @@
   </Observation_Area>
   <File_Area_Observational>
     <File>
-      <file_name>GRD_STATE_TABLE_200804.TAB</file_name>
+      <file_name>GRD_STATE_TABLE.TAB</file_name>
       <creation_date_time>2020-08-04T00:00:00Z</creation_date_time>
       <records>25</records>
-      <md5_checksum>828ab8fc2ac47e8144af48ed3c0f3473</md5_checksum>
+      <md5_checksum>cad173e788f2ac6cdf9b32b75584ed11</md5_checksum>
     </File>
     <Table_Character>
       <local_identifier>table</local_identifier>
