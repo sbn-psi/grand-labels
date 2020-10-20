@@ -190,3 +190,5 @@ P,urn:nasa:pds:dawn-grand-ceres:browse:grd_l1a_181017_181024_report::1.0
 P,urn:nasa:pds:dawn-grand-ceres:browse:grd_l1a_181024_181026_report::1.0
 P,urn:nasa:pds:dawn-grand-ceres:browse:grd_smoothed_hydrogen_map::1.0
 P,urn:nasa:pds:dawn-grand-ceres:browse:grd_tpe_neutron_counts_map::1.0
+P,urn:nasa:pds:dawn-grand-ceres:document:dawn_grand_ceres_encounter_timeline.pdf::1.0
+P,urn:nasa:pds:dawn-grand-ceres:document:dawn_grand_ceres_gamma_ray_spectra_by_subphase.pdf::1.0

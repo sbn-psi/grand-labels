@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.sch"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<Product_Browse xmlns="http://pds.nasa.gov/pds4/pds/v1" 
+    xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.xsd">
+  <Identification_Area>
+    <logical_identifier>urn:nasa:pds:dawn-grand-ceres:document:dawn_grand_ceres_encounter_timeline.pdf</logical_identifier>
+    <version_id>1.0</version_id>
+    <title>Ceres encounter timeline</title>
+    <information_model_version>1.11.0.0</information_model_version>
+    <product_class>Product_Browse</product_class>
+  </Identification_Area>
+  <Reference_List>
+    <Internal_Reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-ceres:data_calibrated:grd-l1b-150313-181026_190117-epg</lid_reference>
+      <reference_type>browse_to_data</reference_type>
+    </Internal_Reference>
+  </Reference_List>
+  <File_Area_Browse>
+    <File>
+      <file_name>Dawn_GRaND_Ceres_encounter_timeline.pdf</file_name>
+      <local_identifier>BROWSE_FILE</local_identifier>
+      <creation_date_time>2020-08-20</creation_date_time>
+      <md5_checksum>553550e723c3bb4af7271cbbaba6fa23</md5_checksum>
+      <comment>Graphical overview of GRaND data acquired at Ceres, including misison phase definitions.</comment>
+      </File>
+    <Encoded_Image>
+      <local_identifier>BROWSE_IMAGE</local_identifier>
+      <offset unit="byte">0</offset>
+      <encoding_standard_id>PDF/A</encoding_standard_id>
+    </Encoded_Image>
+  </File_Area_Browse>
+</Product_Browse>
