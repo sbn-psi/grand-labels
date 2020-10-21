@@ -16,9 +16,9 @@ cp $BASEDIR/dawn-grand-marscruise/document/MCA_RESULTS.* $BASEDIR/dawn-grand-mar
 
 mkdir -p $BASEDIR/dawn-grand-mars/data_calibrated
 mkdir -p $BASEDIR/dawn-grand-mars/data_calibrated/GRD-L1B-090217-090218_110225-CMA
-mkdir -p $BASEDIR/GRD-L1B-090217-090218_110225-DT
+mkdir -p $BASEDIR/dawn-grand-mars/data_calibrated/GRD-L1B-090217-090218_110225-DTS
 find $BASEDIR/dawn-grand-marscruise -name "*CMA*" -exec cp '{}' $BASEDIR/dawn-grand-mars/data_calibrated/GRD-L1B-090217-090218_110225-CMA \;
-find $BASEDIR/dawn-grand-marscruise -name "*DT*" -exec cp '{}' $BASEDIR/dawn-grand-mars/data_calibrated/GRD-L1B-090217-090218_110225-DT \;
+find $BASEDIR/dawn-grand-marscruise -name "*DT*" -exec cp '{}' $BASEDIR/dawn-grand-mars/data_calibrated/GRD-L1B-090217-090218_110225-DTS \;
 
 
 mkdir -p $BASEDIR/dawn-grand-vesta-new/document
