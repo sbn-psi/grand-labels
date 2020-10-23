@@ -218,12 +218,12 @@
 ./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 2_EARTH_MARS_CRUISE 080401 080401 110225
 ./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 2_EARTH_MARS_CRUISE 080401 080402 110225
 ./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 2_EARTH_MARS_CRUISE 080402 080403 110225
-./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 2_EARTH-MARS_CRUISE 080406 080407 110225
+./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 2_EARTH_MARS_CRUISE 080406 080407 110225
 ./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 2_EARTH_MARS_CRUISE 080408 080408 110225
-./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 3_MARS-VESTA_CRUISE 091130 091130 110225
-./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 3_MARS-VESTA_CRUISE 091130 091203 110225
-./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 3_MARS-VESTA_CRUISE 091203 091207 110225
-./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 3_MARS-VESTA_CRUISE 100719 100725 110225
+./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 3_MARS_VESTA_CRUISE 091130 091130 110225
+./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 3_MARS_VESTA_CRUISE 091130 091203 110225
+./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 3_MARS_VESTA_CRUISE 091203 091207 110225
+./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 3_MARS_VESTA_CRUISE 100719 100725 110225
 ./grand_raw_move.sh dawn-grand-marscruise dawn-grand-mars 1_MARS_GRAVITY_ASSIST 090120 090121 101026
 ./grand_raw_move.sh dawn-grand-marscruise dawn-grand-mars 1_MARS_GRAVITY_ASSIST 090121 090122 101026
 ./grand_raw_move.sh dawn-grand-marscruise dawn-grand-mars 1_MARS_GRAVITY_ASSIST 090122 090125 110225
@@ -319,6 +319,6 @@
 #./grand_raw_move.sh dawn-grand-vesta dawn-grand-vesta 9_VESTA_TRANSFER_TO_CERES 120728 120809 140930
 ./grand_raw_move.sh dawn-grand-vesta dawn-grand-vesta 9_VESTA_TRANSFER_TO_CERES 120801 120808 130718
 ./grand_raw_move.sh dawn-grand-vesta dawn-grand-vesta 9_VESTA_TRANSFER_TO_CERES 120808 120809 130718
-./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 4-VESTA_CERES_CRUISE 121210 121215 150408
-./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 4-VESTA_CERES_CRUISE 131115 131125 150408
-./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 4-VESTA_CERES_CRUISE 140623 140630 150409
+./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 4_VESTA_CERES_CRUISE 121210 121215 150408
+./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 4_VESTA_CERES_CRUISE 131115 131125 150408
+./grand_raw_move.sh dawn-grand-marscruise dawn-grand-cruise 4_VESTA_CERES_CRUISE 140623 140630 150409
