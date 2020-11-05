@@ -101,6 +101,17 @@
         <bundle_type>Archive</bundle_type>
     </Bundle>
 
+    <File_Area_Text>
+        <File>
+            <file_name>README.txt</file_name>
+        </File>
+        <Stream_Text>
+            <offset unit="byte">0</offset>
+            <parsing_standard_id>UTF-8 Text</parsing_standard_id>
+            <record_delimiter>Carriage-Return Line-Feed</record_delimiter>
+        </Stream_Text>
+    </File_Area_Text>
+
     <Bundle_Member_Entry>
         <lidvid_reference>urn:nasa:pds:dawn-grand-ceres:browse::1.0</lidvid_reference>
         <member_status>Primary</member_status>

@@ -109,6 +109,19 @@
         <bundle_type>Archive</bundle_type>
     </Bundle>
 
+    {% if readmefile %}
+    <File_Area_Text>
+        <File>
+            <file_name>{{ readmefile }}</file_name>
+        </File>
+        <Stream_Text>
+            <offset unit="byte">0</offset>
+            <parsing_standard_id>UTF-8 Text</parsing_standard_id>
+            <record_delimiter>Carriage-Return Line-Feed</record_delimiter>
+        </Stream_Text>
+    </File_Area_Text>
+    {% endif %}
+
     {% for collection in collections %}
     <Bundle_Member_Entry>
         <lidvid_reference>urn:nasa:pds:{{ bundle_id }}:{{ collection.collection_id }}::1.0</lidvid_reference>
