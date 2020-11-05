@@ -108,7 +108,7 @@
                 "collection_id":"browse",
                 "collection_type":"Browse",
                 "collection_title":"Browse Collection",
-                "collection_description": "Browse files for the GRaND Vesta bundle.",
+                "collection_description": "Browse files for the GRaND Vesta bundle. Browse products are only avaliable for the Vesta-Ceres Cruise phase.",
                 "reference_type":"bundle_has_browse_collection"
             },
             {
