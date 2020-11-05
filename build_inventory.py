@@ -18,16 +18,21 @@ def main(argv=None):
             collection_id = collection["collection_id"]
             dirname = os.path.join(bundle_id, collection_id)
             outfilepath = os.path.join(dirname, "collection_inventory_" + collection_id + ".csv")
-            build_inventory(dirname, outfilepath)
+            build_inventory(bundle_id, dirname, outfilepath)
 
 
-def build_inventory(dirname, outfilename):
+def build_inventory(bundle_id, dirname, outfilename):
     filenames = get_product_filenames(dirname)
     lidvids = [extract_lidvid(filename) for filename in filenames]
-    records = ["P," + lidvid for lidvid in sorted(set(lidvids))]
+    
+    records = [membership_type(bundle_id, lidvid) + "," + lidvid for lidvid in sorted(set(lidvids))]
 
     with open(outfilename,"w") as f:
         f.write("\r\n".join(records) + "\r\n")
+
+def membership_type(bundle_id, lidvid):
+    product_bundle_id = lidvid.split(":")[3]
+    return "P" if product_bundle_id == bundle_id else "S"
 
 
 def get_product_filenames(dirname):
