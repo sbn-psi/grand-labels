@@ -21,7 +21,7 @@
                       "
 >
   <Identification_Area>
-    <logical_identifier>urn:nasa:pds:dawn-grand-marscruise:data_raw:grd-l1a-131115-131125_150408-blp2_py</logical_identifier>
+    <logical_identifier>urn:nasa:pds:dawn-grand-cruise:data_raw:grd-l1a-131115-131125_150408-blp2_py</logical_identifier>
     <version_id>1.0</version_id>
     <title>GRD-L1A-131115-131125_150408-BLP2_PY</title>
     <information_model_version>1.11.0.0</information_model_version>
