@@ -1,5 +1,5 @@
-P,urn:nasa:pds:dawn-grand-marscruise:data_calibrated:grd-l1b-090217-090218_110225-cma-bgo::1.0
-P,urn:nasa:pds:dawn-grand-marscruise:data_calibrated:grd-l1b-090217-090218_110225-cma-epm::1.0
-P,urn:nasa:pds:dawn-grand-marscruise:data_calibrated:grd-l1b-090217-090218_110225-cma-gcr::1.0
-P,urn:nasa:pds:dawn-grand-marscruise:data_calibrated:grd-l1b-090217-090218_110225-cma-ncr::1.0
-P,urn:nasa:pds:dawn-grand-marscruise:data_calibrated:grd-l1b-090217-090218_110225-dts-bgo::1.0
+P,urn:nasa:pds:dawn-grand-mars:data_calibrated:grd-l1b-090217-090218_110225-cma-bgo::1.0
+P,urn:nasa:pds:dawn-grand-mars:data_calibrated:grd-l1b-090217-090218_110225-cma-epm::1.0
+P,urn:nasa:pds:dawn-grand-mars:data_calibrated:grd-l1b-090217-090218_110225-cma-gcr::1.0
+P,urn:nasa:pds:dawn-grand-mars:data_calibrated:grd-l1b-090217-090218_110225-cma-ncr::1.0
+P,urn:nasa:pds:dawn-grand-mars:data_calibrated:grd-l1b-090217-090218_110225-dts-bgo::1.0
