@@ -28,14 +28,14 @@
         "bundle_description":"cruise",
         "author_list":"Prettyman, T.H.",
         "doi":"10.26033/skyr-at92",
-        "readmefile": "README.txt",
+        "readmefile": "AAREADME.txt",
         "targets": ["mars","vesta","ceres"],
         "collections": [
             {
                 "collection_id":"browse",
                 "collection_type":"Browse",
                 "collection_title":"Browse Collection",
-                "collection_description": "Browse files for the GRaND Cruise bundle. Browse products are only avaliable for the Vesta-Ceres Cruise phase.",
+                "collection_description": "Browse files for the GRaND Cruise bundle.     Browse products are only avaliable for the Vesta-Ceres Cruise phase.",
                 "reference_type":"bundle_has_browse_collection"
             },
             {
@@ -63,7 +63,7 @@
         "bundle_description":"Mars",
         "author_list":"Prettyman, T.H.",
         "doi":"10.26033/v138-0v94",
-        "readmefile": "README.txt",
+        "readmefile": "AAREADME.txt",
         "targets": ["mars"],
         "collections": [
             {
@@ -104,7 +104,7 @@
         "bundle_description":"Vesta",
         "author_list":"Prettyman, T.H.; Yamashita, N.",
         "doi":"10.26033/ypv0-mt21",
-        "readmefile": "README.txt",
+        "readmefile": "AAREADME.txt",
         "targets": ["vesta"],        
         "collections": [
             {
@@ -170,7 +170,7 @@
         "bundle_description":"Ceres",
         "author_list":"Prettyman, T.H.; Yamashita, N.",
         "doi":"10.26033/hf9h-pt31",
-        "readmefile": "README.txt",
+        "readmefile": "AAREADME.txt",
         "targets": ["ceres"],
         "collections": [
             {
