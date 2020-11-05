@@ -27,7 +27,7 @@ def build_inventory(dirname, outfilename):
     records = ["P," + lidvid for lidvid in sorted(set(lidvids))]
 
     with open(outfilename,"w") as f:
-        f.write("\r\n".join(records))
+        f.write("\r\n".join(records) + "\r\n")
 
 
 def get_product_filenames(dirname):

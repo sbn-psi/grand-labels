@@ -102,11 +102,6 @@
     </Bundle>
 
     <Bundle_Member_Entry>
-        <lidvid_reference>urn:nasa:pds:dawn-grand-mars:browse::1.0</lidvid_reference>
-        <member_status>Primary</member_status>
-        <reference_type>bundle_has_browse_collection</reference_type>
-    </Bundle_Member_Entry>
-    <Bundle_Member_Entry>
         <lidvid_reference>urn:nasa:pds:dawn-grand-mars:document::1.0</lidvid_reference>
         <member_status>Primary</member_status>
         <reference_type>bundle_has_document_collection</reference_type>

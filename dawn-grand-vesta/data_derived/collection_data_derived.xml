@@ -16,7 +16,7 @@
             <author_list>Prettyman, T.H.; Yamashita, N.</author_list>
             <publication_year>2020</publication_year>
             <description>
-                
+                Derived data files for the GRaND Vesta bundle.
             </description>
         </Citation_Information>
    
@@ -30,13 +30,23 @@
     </Identification_Area>
     
     <Context_Area>
+        <Time_Coordinates>
+            <start_date_time>2011-12-08T01:18:52Z</start_date_time>
+            <stop_date_time>2012-05-01T01:59:29Z</stop_date_time>
+        </Time_Coordinates>
+
+        <Primary_Result_Summary>
+            <purpose>Science</purpose>
+            <processing_level>Derived</processing_level>
+        </Primary_Result_Summary>
+
 
         <Investigation_Area>
             <name>DAWN Mission to Vesta and Ceres</name>
             <type>Mission</type>
             <Internal_Reference>
                 <lid_reference>urn:nasa:pds:context:investigation:mission.dawn_mission_to_vesta_and_ceres</lid_reference>
-                <reference_type>bundle_to_investigation</reference_type>
+                <reference_type>collection_to_investigation</reference_type>
             </Internal_Reference>
         </Investigation_Area>
 
@@ -62,16 +72,24 @@
             </Observing_System_Component>
         </Observing_System>
 
+        <Target_Identification>
+            <name>(4) Vesta</name>
+            <type>Asteroid</type>
+            <Internal_Reference>
+                <lid_reference>urn:nasa:pds:context:target:asteroid.4_vesta</lid_reference>
+                <reference_type>bundle_to_target</reference_type>
+            </Internal_Reference>
+        </Target_Identification>
     </Context_Area>
 
     
     <Collection>
-        <collection_type>data</collection_type>
+        <collection_type>Data</collection_type>
     </Collection>
     
     <File_Area_Inventory>
         <File>
-            <file_name>collection_data_derived_inventory.csv</file_name>
+            <file_name>collection_inventory_data_derived.csv</file_name>
         </File>
         <Inventory>
             <offset unit="byte">0</offset>

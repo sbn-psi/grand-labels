@@ -31,12 +31,14 @@
     
     <Context_Area>
 
+
+
         <Investigation_Area>
             <name>DAWN Mission to Vesta and Ceres</name>
             <type>Mission</type>
             <Internal_Reference>
                 <lid_reference>urn:nasa:pds:context:investigation:mission.dawn_mission_to_vesta_and_ceres</lid_reference>
-                <reference_type>bundle_to_investigation</reference_type>
+                <reference_type>collection_to_investigation</reference_type>
             </Internal_Reference>
         </Investigation_Area>
 
@@ -71,7 +73,7 @@
     
     <File_Area_Inventory>
         <File>
-            <file_name>collection_document_inventory.csv</file_name>
+            <file_name>collection_inventory_document.csv</file_name>
         </File>
         <Inventory>
             <offset unit="byte">0</offset>

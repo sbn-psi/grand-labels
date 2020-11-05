@@ -45,12 +45,20 @@
         </Time_Coordinates>
         {% endif %}
 
+        {% if collection.purpose %}
+        <Primary_Result_Summary>
+            <purpose>{{ collection.purpose }}</purpose>
+            <processing_level>{{ collection.processing_level }}</processing_level>
+        </Primary_Result_Summary>
+        {% endif %}
+
+
         <Investigation_Area>
             <name>DAWN Mission to Vesta and Ceres</name>
             <type>Mission</type>
             <Internal_Reference>
                 <lid_reference>urn:nasa:pds:context:investigation:mission.dawn_mission_to_vesta_and_ceres</lid_reference>
-                <reference_type>bundle_to_investigation</reference_type>
+                <reference_type>collection_to_investigation</reference_type>
             </Internal_Reference>
         </Investigation_Area>
 
@@ -125,7 +133,7 @@
     
     <File_Area_Inventory>
         <File>
-            <file_name>collection_{{ collection.collection_id }}_inventory.csv</file_name>
+            <file_name>collection_inventory_{{ collection.collection_id }}.csv</file_name>
         </File>
         <Inventory>
             <offset unit="byte">0</offset>

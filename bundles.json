@@ -28,28 +28,32 @@
         "bundle_description":"cruise",
         "author_list":"Prettyman, T.H.",
         "doi":"10.26033/skyr-at92",
+        "targets": ["mars","vesta","ceres"],
         "collections": [
             {
                 "collection_id":"browse",
-                "collection_type":"browse",
+                "collection_type":"Browse",
                 "collection_title":"Browse Collection",
-                "collection_description": "",
+                "collection_description": "Browse files for the GRaND Cruise bundle.",
                 "reference_type":"bundle_has_browse_collection"
             },
             {
                 "collection_id":"document",
-                "collection_type":"document",
+                "collection_type":"Document",
                 "collection_title":"Document Collection",
-                "collection_description": "",
+                "collection_description": "Document files for the GRaND Cruise bundle.",
                 "reference_type":"bundle_has_document_collection"
             },
             {
                 "collection_id":"data_raw",
-                "collection_type":"data",
+                "collection_type":"Data",
                 "collection_title":"Raw Data Collection",
-                "collection_description": "",
-                "reference_type":"bundle_has_data_collection"
-            }
+                "collection_description": "Raw data files for the GRaND Cruise bundle.",
+                "processing_level": "Raw",
+                "purpose": "Science",
+                "reference_type":"bundle_has_data_collection",
+                "start_date":"2007-10-16T17:15Z",
+                "stop_date":"2014-07-01T00:01Z"            }
         ]       
     },
     {
@@ -58,34 +62,37 @@
         "bundle_description":"Mars",
         "author_list":"Prettyman, T.H.",
         "doi":"10.26033/v138-0v94",
+        "targets": ["mars"],
         "collections": [
             {
-                "collection_id":"browse",
-                "collection_type":"browse",
-                "collection_title":"Browse Collection",
-                "collection_description": "",
-                "reference_type":"bundle_has_browse_collection"
-            },
-            {
                 "collection_id":"document",
-                "collection_type":"document",
+                "collection_type":"Document",
                 "collection_title":"Document Collection",
-                "collection_description": "",
+                "collection_description": "Document files for the GRaND Mars bundle.",
                 "reference_type":"bundle_has_document_collection"
             },
             {
                 "collection_id":"data_calibrated",
-                "collection_type":"data",
+                "collection_type":"Data",
                 "collection_title":"Calibrated Data Collection",
-                "collection_description": "",
-                "reference_type":"bundle_has_data_collection"
+                "collection_description": "Calibrated data files for the GRaND Mars bundle.",
+                "processing_level": "Calibrated",
+                "purpose": "Science",
+                "reference_type":"bundle_has_data_collection",
+                "start_date":"2009-02-17T22:32:29Z",
+                "stop_date":"2009-02-18T00:46:04Z"
+
             },
             {
                 "collection_id":"data_raw",
-                "collection_type":"data",
+                "collection_type":"Data",
                 "collection_title":"Raw Data Collection",
-                "collection_description": "",
-                "reference_type":"bundle_has_data_collection"
+                "collection_description": "Raw data files for the GRaND Mars bundle.",
+                "processing_level": "Raw",
+                "purpose": "Science",
+                "reference_type":"bundle_has_data_collection",
+                "start_date":"2009-01-20T22:00Z",
+                "stop_date":"2009-03-27T16:54Z"            
             }
         ]       
     },
@@ -95,47 +102,60 @@
         "bundle_description":"Vesta",
         "author_list":"Prettyman, T.H.; Yamashita, N.",
         "doi":"10.26033/ypv0-mt21",
+        "targets": ["vesta"],        
         "collections": [
             {
                 "collection_id":"browse",
-                "collection_type":"browse",
+                "collection_type":"Browse",
                 "collection_title":"Browse Collection",
-                "collection_description": "",
+                "collection_description": "Browse files for the GRaND Vesta bundle.",
                 "reference_type":"bundle_has_browse_collection"
             },
             {
                 "collection_id":"document",
-                "collection_type":"document",
+                "collection_type":"Document",
                 "collection_title":"Document Collection",
-                "collection_description": "",
+                "collection_description": "Document files for the GRaND Vesta bundle.",
                 "reference_type":"bundle_has_document_collection"
             },
             {
                 "collection_id":"data_calibrated",
-                "collection_type":"data",
+                "collection_type":"Data",
                 "collection_title":"Calibrated Data Collection",
-                "collection_description": "",
-                "reference_type":"bundle_has_data_collection"
+                "collection_description": "Calibrated data files for the GRaND Vesta bundle.",
+                "processing_level": "Calibrated",
+                "purpose": "Science",
+                "reference_type":"bundle_has_data_collection",
+                "start_date":"2011-05-03T16:36:19Z",
+                "stop_date":"2012-08-09T01:41:33Z"            
             },
             {
                 "collection_id":"data_derived",
-                "collection_type":"data",
+                "collection_type":"Data",
                 "collection_title":"Derived Data Collection",
-                "collection_description": "",
-                "reference_type":"bundle_has_data_collection"
+                "collection_description": "Derived data files for the GRaND Vesta bundle.",
+                "processing_level": "Derived",
+                "purpose": "Science",
+                "reference_type":"bundle_has_data_collection",
+                "start_date":"2011-12-08T01:18:52Z",
+                "stop_date":"2012-05-01T01:59:29Z"
             },            
             {
                 "collection_id":"data_raw",
-                "collection_type":"data",
+                "collection_type":"Data",
                 "collection_title":"Raw Data Collection",
-                "collection_description": "",
-                "reference_type":"bundle_has_data_collection"
+                "collection_description": "Raw data files for the GRaND Vesta bundle.",
+                "processing_level": "Raw",
+                "purpose": "Science",
+                "reference_type":"bundle_has_data_collection",
+                "start_date":"2011-05-03T16:26Z",
+                "stop_date":"2012-08-09T01:45Z"            
             },
             {
                 "collection_id":"miscellaneous",
-                "collection_type":"member",
+                "collection_type":"Miscellaneous",
                 "collection_title":"Miscellaneous Collection",
-                "collection_description": "",
+                "collection_description": "Miscellaneous files for the GRaND Vesta bundle.",
                 "reference_type":"bundle_has_member_collection"
             }
 
@@ -147,47 +167,60 @@
         "bundle_description":"Ceres",
         "author_list":"Prettyman, T.H.; Yamashita, N.",
         "doi":"10.26033/hf9h-pt31",
+        "targets": ["ceres"],
         "collections": [
             {
                 "collection_id":"browse",
-                "collection_type":"browse",
+                "collection_type":"Browse",
                 "collection_title":"Browse Collection",
-                "collection_description": "",
+                "collection_description": "Browse files for the GRaND Ceres bundle.",
                 "reference_type":"bundle_has_browse_collection"
             },
             {
                 "collection_id":"document",
-                "collection_type":"document",
+                "collection_type":"Document",
                 "collection_title":"Document Collection",
-                "collection_description": "",
+                "collection_description": "Document files for the GRaND Ceres bundle.",
                 "reference_type":"bundle_has_document_collection"
             },
             {
                 "collection_id":"data_calibrated",
-                "collection_type":"data",
+                "collection_type":"Data",
                 "collection_title":"Calibrated Data Collection",
-                "collection_description": "",
-                "reference_type":"bundle_has_data_collection"
+                "collection_description": "Calibrated data files for the GRaND Ceres bundle.",
+                "processing_level": "Calibrated",
+                "purpose": "Science",
+                "reference_type":"bundle_has_data_collection",
+                "start_date":"2015-03-13T03:22:36Z",
+                "stop_date":"2018-10-26T06:05:18Z"            
             },
             {
                 "collection_id":"data_derived",
-                "collection_type":"data",
+                "collection_type":"Data",
                 "collection_title":"Derived Data Collection",
-                "collection_description": "",
-                "reference_type":"bundle_has_data_collection"
-            },            
+                "collection_description": "Derived data files for the GRaND Ceres bundle.",
+                "processing_level": "Derived",
+                "purpose": "Science",
+                "reference_type":"bundle_has_data_collection",
+                "start_date":"2015-12-16T01:01:10Z",
+                "stop_date":"2016-05-11T00:57:37Z"            
+            },
             {
                 "collection_id":"data_raw",
-                "collection_type":"data",
+                "collection_type":"Data",
                 "collection_title":"Raw Data Collection",
-                "collection_description": "",
-                "reference_type":"bundle_has_data_collection"
+                "collection_description": "Raw data files for the GRaND Ceres bundle.",
+                "processing_level": "Raw",
+                "purpose": "Science",
+                "reference_type":"bundle_has_data_collection",
+                "start_date":"2015-03-13T03:10Z",
+                "stop_date":"2018-10-26T06:11Z"           
             },
             {
                 "collection_id":"miscellaneous",
-                "collection_type":"member",
+                "collection_type":"Miscellaneous",
                 "collection_title":"Miscellaneous Data Collection",
-                "collection_description": "",
+                "collection_description": "Miscellaneous files for the GRaND Ceres bundle.",
                 "reference_type":"bundle_has_member_collection"
             }
         ]       
