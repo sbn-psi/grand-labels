@@ -1,0 +1,1 @@
+find dawn-grand-ancillary dawn-grand-ceres dawn-grand-cruise dawn-grand-mars dawn-grand-vesta -name "*.xml" -exec grep -H '1\.11\.0' '{}' \; | awk -F ":" '{print $1}' | xargs sed -i .bak -e 's/PDS4_PDS_1A00/PDS4_PDS_1B00/'
