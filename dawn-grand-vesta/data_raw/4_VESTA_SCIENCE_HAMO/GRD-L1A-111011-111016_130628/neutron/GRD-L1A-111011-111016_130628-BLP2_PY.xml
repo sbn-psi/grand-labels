@@ -114,22 +114,11 @@
           <local_reference_type>state_table_to_data_table</local_reference_type>
         </Local_Internal_Reference>
         <nucspec:State_Table_Entry>
-          <nucspec:state_index xsi:nil="true" nilReason="missing"></nucspec:state_index>
-          <nucspec:comment>This state not defined in state table. Refer to GRD-L1A-111011-111016_130628-STA.xml</nucspec:comment>
-          <nucspec:State_Time>
-            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
-            <nucspec:Time_Range_SCLK>
-              <nucspec:sclk_start_time>371563296</nucspec:sclk_start_time>
-              <nucspec:sclk_stop_time>371563506</nucspec:sclk_stop_time>
-            </nucspec:Time_Range_SCLK>
-          </nucspec:State_Time>
-        </nucspec:State_Table_Entry>
-        <nucspec:State_Table_Entry>
           <nucspec:state_index>13</nucspec:state_index>
           <nucspec:State_Time>
             <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
             <nucspec:Time_Range_SCLK>
-              <nucspec:sclk_start_time>371563716</nucspec:sclk_start_time>
+              <nucspec:sclk_start_time>371563296</nucspec:sclk_start_time>
               <nucspec:sclk_stop_time>371619576</nucspec:sclk_stop_time>
             </nucspec:Time_Range_SCLK>
           </nucspec:State_Time>
@@ -220,6 +209,54 @@
         </nucspec:State_Table_Entry>
       </nucspec:State_Table>
     </nucspec:Instrument_Settings>
+    <nucspec:Observing_Conditions>
+      <nucspec:condition_type>SEP</nucspec:condition_type>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>false</nucspec:condition_active>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>371563296</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>371998677</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+    </nucspec:Observing_Conditions>
+    <nucspec:Observing_Conditions>
+      <nucspec:condition_type>Solar Flare</nucspec:condition_type>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>false</nucspec:condition_active>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>371563296</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>371998677</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+    </nucspec:Observing_Conditions>
+    <nucspec:Observing_Conditions>
+      <nucspec:condition_type>Gamma-ray Burst</nucspec:condition_type>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>false</nucspec:condition_active>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>371563296</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>371998677</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+    </nucspec:Observing_Conditions>
+    <nucspec:Observing_Conditions>
+      <nucspec:condition_type>Data Glitch</nucspec:condition_type>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>true</nucspec:condition_active>
+        <nucspec:comment>Description: BGO anomaly - see urn:nasa:pds:dawn-grand-vesta:document:dawn_grand_vesta_bundle_description.pdf</nucspec:comment>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>371563296</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>371735967</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>false</nucspec:condition_active>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>371736177</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>371998677</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+    </nucspec:Observing_Conditions>
     </nucspec:NucSpec_Observation_Properties>
       <dawn:grand>
         <Local_Internal_Reference>
@@ -229,12 +266,6 @@
         <dawn:TELREADOUT_List>
           <dawn:TELREADOUT>
             <dawn:grand_start_sclk>371563296</dawn:grand_start_sclk>
-            <dawn:grand_stop_sclk>371563506</dawn:grand_stop_sclk>
-            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
-            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-111011-111016_130628-STA.xml</dawn:comment>
-          </dawn:TELREADOUT>
-          <dawn:TELREADOUT>
-            <dawn:grand_start_sclk>371563716</dawn:grand_start_sclk>
             <dawn:grand_stop_sclk>371619576</dawn:grand_stop_sclk>
             <dawn:grand_interval unit="s">210</dawn:grand_interval>
           </dawn:TELREADOUT>
@@ -286,12 +317,6 @@
         <dawn:TELSOH_List>
           <dawn:TELSOH>
             <dawn:grand_start_sclk>371563296</dawn:grand_start_sclk>
-            <dawn:grand_stop_sclk>371563506</dawn:grand_stop_sclk>
-            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
-            <dawn:comment>This state not defined in state table. Refer to GRD-L1A-111011-111016_130628-STA.xml</dawn:comment>
-          </dawn:TELSOH>
-          <dawn:TELSOH>
-            <dawn:grand_start_sclk>371563716</dawn:grand_start_sclk>
             <dawn:grand_stop_sclk>371619576</dawn:grand_stop_sclk>
             <dawn:grand_interval unit="s">35</dawn:grand_interval>
           </dawn:TELSOH>
