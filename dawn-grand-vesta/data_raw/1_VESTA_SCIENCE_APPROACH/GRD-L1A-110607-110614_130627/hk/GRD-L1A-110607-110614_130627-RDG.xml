@@ -162,21 +162,21 @@
         <nucspec:condition_active>false</nucspec:condition_active>
         <nucspec:Time_Range_SCLK>
           <nucspec:sclk_start_time>360676869</nucspec:sclk_start_time>
-          <nucspec:sclk_stop_time>360857649</nucspec:sclk_stop_time>
+          <nucspec:sclk_stop_time>360857229</nucspec:sclk_stop_time>
         </nucspec:Time_Range_SCLK>
       </nucspec:Observing_Condition>
       <nucspec:Observing_Condition>
         <nucspec:condition_active>true</nucspec:condition_active>
-        <nucspec:comment>Description: Manual removal of down-up glitch \/\</nucspec:comment>
+        <nucspec:comment>Description: PHOS_PZ - Data glitch \/\</nucspec:comment>
         <nucspec:Time_Range_SCLK>
-          <nucspec:sclk_start_time>360857709</nucspec:sclk_start_time>
-          <nucspec:sclk_stop_time>360858069</nucspec:sclk_stop_time>
+          <nucspec:sclk_start_time>360857289</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>360858489</nucspec:sclk_stop_time>
         </nucspec:Time_Range_SCLK>
       </nucspec:Observing_Condition>
       <nucspec:Observing_Condition>
         <nucspec:condition_active>false</nucspec:condition_active>
         <nucspec:Time_Range_SCLK>
-          <nucspec:sclk_start_time>360858129</nucspec:sclk_start_time>
+          <nucspec:sclk_start_time>360858549</nucspec:sclk_start_time>
           <nucspec:sclk_stop_time>361285209</nucspec:sclk_stop_time>
         </nucspec:Time_Range_SCLK>
       </nucspec:Observing_Condition>

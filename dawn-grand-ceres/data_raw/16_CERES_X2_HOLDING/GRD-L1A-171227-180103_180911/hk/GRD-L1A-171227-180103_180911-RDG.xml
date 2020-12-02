@@ -176,6 +176,29 @@
         <nucspec:condition_active>false</nucspec:condition_active>
         <nucspec:Time_Range_SCLK>
           <nucspec:sclk_start_time>567604902</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>567813102</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>true</nucspec:condition_active>
+        <nucspec:comment>Description: Manual removal of blip /\</nucspec:comment>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>567813162</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>567814602</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>false</nucspec:condition_active>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>567814662</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>568213182</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>true</nucspec:condition_active>
+        <nucspec:comment>Description: Manual removal of blip /\</nucspec:comment>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>568213242</nucspec:sclk_start_time>
           <nucspec:sclk_stop_time>568213242</nucspec:sclk_stop_time>
         </nucspec:Time_Range_SCLK>
       </nucspec:Observing_Condition>

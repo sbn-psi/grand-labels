@@ -146,7 +146,7 @@
       </nucspec:Observing_Condition>
       <nucspec:Observing_Condition>
         <nucspec:condition_active>true</nucspec:condition_active>
-        <nucspec:comment>Description: Solar flare - M4.0</nucspec:comment>
+        <nucspec:comment>Description: Solar flare - X1.1</nucspec:comment>
         <nucspec:Time_Range_SCLK>
           <nucspec:sclk_start_time>394888257</nucspec:sclk_start_time>
           <nucspec:sclk_stop_time>394889517</nucspec:sclk_stop_time>

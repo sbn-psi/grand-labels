@@ -146,7 +146,7 @@
       </nucspec:Observing_Condition>
       <nucspec:Observing_Condition>
         <nucspec:condition_active>true</nucspec:condition_active>
-        <nucspec:comment>Description: Solar flare - M5.3</nucspec:comment>
+        <nucspec:comment>Description: Solar flare - M9.3</nucspec:comment>
         <nucspec:Time_Range_SCLK>
           <nucspec:sclk_start_time>368545505</nucspec:sclk_start_time>
           <nucspec:sclk_stop_time>368546975</nucspec:sclk_stop_time>
@@ -161,7 +161,7 @@
       </nucspec:Observing_Condition>
       <nucspec:Observing_Condition>
         <nucspec:condition_active>true</nucspec:condition_active>
-        <nucspec:comment>Description: Solar flare - X2.1</nucspec:comment>
+        <nucspec:comment>Description: Solar flare - M5.3</nucspec:comment>
         <nucspec:Time_Range_SCLK>
           <nucspec:sclk_start_time>368619635</nucspec:sclk_start_time>
           <nucspec:sclk_stop_time>368621105</nucspec:sclk_stop_time>
@@ -176,7 +176,7 @@
       </nucspec:Observing_Condition>
       <nucspec:Observing_Condition>
         <nucspec:condition_active>true</nucspec:condition_active>
-        <nucspec:comment>Description: Solar flare - M6.7</nucspec:comment>
+        <nucspec:comment>Description: Solar flare - X2.1</nucspec:comment>
         <nucspec:Time_Range_SCLK>
           <nucspec:sclk_start_time>368706995</nucspec:sclk_start_time>
           <nucspec:sclk_stop_time>368708465</nucspec:sclk_stop_time>

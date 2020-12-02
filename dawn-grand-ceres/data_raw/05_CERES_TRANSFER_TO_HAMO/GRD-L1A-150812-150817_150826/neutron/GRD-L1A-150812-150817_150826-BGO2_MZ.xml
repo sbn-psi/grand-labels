@@ -166,7 +166,7 @@
       </nucspec:Observing_Condition>
       <nucspec:Observing_Condition>
         <nucspec:condition_active>true</nucspec:condition_active>
-        <nucspec:comment>Description: Manual removal of down-up glitch \/\</nucspec:comment>
+        <nucspec:comment>Description: Manual removal of data glitch \/\</nucspec:comment>
         <nucspec:Time_Range_SCLK>
           <nucspec:sclk_start_time>492844654</nucspec:sclk_start_time>
           <nucspec:sclk_stop_time>492845284</nucspec:sclk_stop_time>
@@ -176,6 +176,21 @@
         <nucspec:condition_active>false</nucspec:condition_active>
         <nucspec:Time_Range_SCLK>
           <nucspec:sclk_start_time>492845494</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>492995014</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>true</nucspec:condition_active>
+        <nucspec:comment>Description: Manual removal of blip \/</nucspec:comment>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>492995224</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>492996484</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>false</nucspec:condition_active>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>492996694</nucspec:sclk_start_time>
           <nucspec:sclk_stop_time>493040794</nucspec:sclk_stop_time>
         </nucspec:Time_Range_SCLK>
       </nucspec:Observing_Condition>
