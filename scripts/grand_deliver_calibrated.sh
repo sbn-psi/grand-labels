@@ -1,4 +1,4 @@
-SRCDIR="../temp/calibrated_20201022"
+SRCDIR="../temp/calibrated_20201203"
 DESTDIR=".."
 set -e
 #mkdir -p $DESTDIR/dawn-grand-ancillary/document
