@@ -125,7 +125,7 @@
     <Table_Character>
       <local_identifier>table</local_identifier>
       <offset unit="byte">0</offset>
-      <records>24</records>
+      <records>25</records>
       <description>
         This table contains a list of instrument states in which GRaND
         was fully configured for science data acquisition. Each row of 
