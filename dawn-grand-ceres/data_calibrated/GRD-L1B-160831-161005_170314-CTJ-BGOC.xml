@@ -139,86 +139,112 @@
             <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
             <nucspec:Time_Range_SCLK>
               <nucspec:sclk_start_time>526040404</nucspec:sclk_start_time>
-              <nucspec:sclk_stop_time>527083264</nucspec:sclk_stop_time>
-            </nucspec:Time_Range_SCLK>
-          </nucspec:State_Time>
-        </nucspec:State_Table_Entry>
-        <nucspec:State_Table_Entry>
-          <nucspec:state_index xsi:nil="true" nilReason="missing"></nucspec:state_index>
-          <nucspec:comment>Instrument was in a state not assigned in the state table. </nucspec:comment>
-          <nucspec:State_Time>
-            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
-            <nucspec:Time_Range_SCLK>
-              <nucspec:sclk_start_time>527083474</nucspec:sclk_start_time>
-              <nucspec:sclk_stop_time>527083474</nucspec:sclk_stop_time>
-            </nucspec:Time_Range_SCLK>
-          </nucspec:State_Time>
-        </nucspec:State_Table_Entry>
-        <nucspec:State_Table_Entry>
-          <nucspec:state_index>25</nucspec:state_index>
-          <nucspec:State_Time>
-            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
-            <nucspec:Time_Range_SCLK>
-              <nucspec:sclk_start_time>527083684</nucspec:sclk_start_time>
-              <nucspec:sclk_stop_time>527688064</nucspec:sclk_stop_time>
-            </nucspec:Time_Range_SCLK>
-          </nucspec:State_Time>
-        </nucspec:State_Table_Entry>
-        <nucspec:State_Table_Entry>
-          <nucspec:state_index xsi:nil="true" nilReason="missing"></nucspec:state_index>
-          <nucspec:comment>Instrument was in a state not assigned in the state table. </nucspec:comment>
-          <nucspec:State_Time>
-            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
-            <nucspec:Time_Range_SCLK>
-              <nucspec:sclk_start_time>527688274</nucspec:sclk_start_time>
-              <nucspec:sclk_stop_time>527688274</nucspec:sclk_stop_time>
-            </nucspec:Time_Range_SCLK>
-          </nucspec:State_Time>
-        </nucspec:State_Table_Entry>
-        <nucspec:State_Table_Entry>
-          <nucspec:state_index>25</nucspec:state_index>
-          <nucspec:State_Time>
-            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
-            <nucspec:Time_Range_SCLK>
-              <nucspec:sclk_start_time>527688484</nucspec:sclk_start_time>
-              <nucspec:sclk_stop_time>528292864</nucspec:sclk_stop_time>
-            </nucspec:Time_Range_SCLK>
-          </nucspec:State_Time>
-        </nucspec:State_Table_Entry>
-        <nucspec:State_Table_Entry>
-          <nucspec:state_index xsi:nil="true" nilReason="missing"></nucspec:state_index>
-          <nucspec:comment>Instrument was in a state not assigned in the state table. </nucspec:comment>
-          <nucspec:State_Time>
-            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
-            <nucspec:Time_Range_SCLK>
-              <nucspec:sclk_start_time>528293074</nucspec:sclk_start_time>
-              <nucspec:sclk_stop_time>528293074</nucspec:sclk_stop_time>
-            </nucspec:Time_Range_SCLK>
-          </nucspec:State_Time>
-        </nucspec:State_Table_Entry>
-        <nucspec:State_Table_Entry>
-          <nucspec:state_index>25</nucspec:state_index>
-          <nucspec:State_Time>
-            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
-            <nucspec:Time_Range_SCLK>
-              <nucspec:sclk_start_time>528293284</nucspec:sclk_start_time>
-              <nucspec:sclk_stop_time>528897664</nucspec:sclk_stop_time>
-            </nucspec:Time_Range_SCLK>
-          </nucspec:State_Time>
-        </nucspec:State_Table_Entry>
-        <nucspec:State_Table_Entry>
-          <nucspec:state_index xsi:nil="true" nilReason="missing"></nucspec:state_index>
-          <nucspec:comment>Instrument was in a state not assigned in the state table. </nucspec:comment>
-          <nucspec:State_Time>
-            <nucspec:state_time_field_name>SCLK</nucspec:state_time_field_name>
-            <nucspec:Time_Range_SCLK>
-              <nucspec:sclk_start_time>528897874</nucspec:sclk_start_time>
               <nucspec:sclk_stop_time>528897874</nucspec:sclk_stop_time>
             </nucspec:Time_Range_SCLK>
           </nucspec:State_Time>
         </nucspec:State_Table_Entry>
       </nucspec:State_Table>
     </nucspec:Instrument_Settings>
+    <nucspec:Observing_Conditions>
+      <nucspec:condition_type>SEP</nucspec:condition_type>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>false</nucspec:condition_active>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>525873923</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>528897874</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+    </nucspec:Observing_Conditions>
+    <nucspec:Observing_Conditions>
+      <nucspec:condition_type>Solar Flare</nucspec:condition_type>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>false</nucspec:condition_active>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>525873923</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>528897874</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+    </nucspec:Observing_Conditions>
+    <nucspec:Observing_Conditions>
+      <nucspec:condition_type>Gamma-ray Burst</nucspec:condition_type>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>false</nucspec:condition_active>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>525873923</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>526346584</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>true</nucspec:condition_active>
+        <nucspec:comment>Description: GRB160905471 Fermi trigger: 2016-09-05 11:18:55.912</nucspec:comment>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>526346794</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>526347214</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>false</nucspec:condition_active>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>526347424</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>528897874</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+    </nucspec:Observing_Conditions>
+    <nucspec:Observing_Conditions>
+      <nucspec:condition_type>Data Glitch</nucspec:condition_type>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>false</nucspec:condition_active>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>525873923</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>526660744</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>true</nucspec:condition_active>
+        <nucspec:comment>Description: GSD detect</nucspec:comment>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>526660954</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>526662424</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>false</nucspec:condition_active>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>526662634</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>526726264</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>true</nucspec:condition_active>
+        <nucspec:comment>Description: GSD detect</nucspec:comment>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>526726474</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>526727944</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>false</nucspec:condition_active>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>526728154</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>528233644</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>true</nucspec:condition_active>
+        <nucspec:comment>Description: GSD detect</nucspec:comment>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>528233854</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>528235324</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+      <nucspec:Observing_Condition>
+        <nucspec:condition_active>false</nucspec:condition_active>
+        <nucspec:Time_Range_SCLK>
+          <nucspec:sclk_start_time>528235534</nucspec:sclk_start_time>
+          <nucspec:sclk_stop_time>528897874</nucspec:sclk_stop_time>
+        </nucspec:Time_Range_SCLK>
+      </nucspec:Observing_Condition>
+    </nucspec:Observing_Conditions>
     </nucspec:NucSpec_Observation_Properties>
       <dawn:grand>
         <Local_Internal_Reference>
@@ -233,47 +259,8 @@
           </dawn:TELREADOUT>
           <dawn:TELREADOUT>
             <dawn:grand_start_sclk>526040404</dawn:grand_start_sclk>
-            <dawn:grand_stop_sclk>527083264</dawn:grand_stop_sclk>
-            <dawn:grand_interval unit="s">210</dawn:grand_interval>
-          </dawn:TELREADOUT>
-          <dawn:TELREADOUT>
-            <dawn:grand_start_sclk>527083474</dawn:grand_start_sclk>
-            <dawn:grand_stop_sclk>527083474</dawn:grand_stop_sclk>
-            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
-            <dawn:comment>Instrument was in a state not assigned in the state table. </dawn:comment>
-          </dawn:TELREADOUT>
-          <dawn:TELREADOUT>
-            <dawn:grand_start_sclk>527083684</dawn:grand_start_sclk>
-            <dawn:grand_stop_sclk>527688064</dawn:grand_stop_sclk>
-            <dawn:grand_interval unit="s">210</dawn:grand_interval>
-          </dawn:TELREADOUT>
-          <dawn:TELREADOUT>
-            <dawn:grand_start_sclk>527688274</dawn:grand_start_sclk>
-            <dawn:grand_stop_sclk>527688274</dawn:grand_stop_sclk>
-            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
-            <dawn:comment>Instrument was in a state not assigned in the state table. </dawn:comment>
-          </dawn:TELREADOUT>
-          <dawn:TELREADOUT>
-            <dawn:grand_start_sclk>527688484</dawn:grand_start_sclk>
-            <dawn:grand_stop_sclk>528292864</dawn:grand_stop_sclk>
-            <dawn:grand_interval unit="s">210</dawn:grand_interval>
-          </dawn:TELREADOUT>
-          <dawn:TELREADOUT>
-            <dawn:grand_start_sclk>528293074</dawn:grand_start_sclk>
-            <dawn:grand_stop_sclk>528293074</dawn:grand_stop_sclk>
-            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
-            <dawn:comment>Instrument was in a state not assigned in the state table. </dawn:comment>
-          </dawn:TELREADOUT>
-          <dawn:TELREADOUT>
-            <dawn:grand_start_sclk>528293284</dawn:grand_start_sclk>
-            <dawn:grand_stop_sclk>528897664</dawn:grand_stop_sclk>
-            <dawn:grand_interval unit="s">210</dawn:grand_interval>
-          </dawn:TELREADOUT>
-          <dawn:TELREADOUT>
-            <dawn:grand_start_sclk>528897874</dawn:grand_start_sclk>
             <dawn:grand_stop_sclk>528897874</dawn:grand_stop_sclk>
-            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
-            <dawn:comment>Instrument was in a state not assigned in the state table. </dawn:comment>
+            <dawn:grand_interval unit="s">210</dawn:grand_interval>
           </dawn:TELREADOUT>
       </dawn:TELREADOUT_List>
         <dawn:TELSOH_List>
@@ -284,47 +271,8 @@
           </dawn:TELSOH>
           <dawn:TELSOH>
             <dawn:grand_start_sclk>526040404</dawn:grand_start_sclk>
-            <dawn:grand_stop_sclk>527083264</dawn:grand_stop_sclk>
-            <dawn:grand_interval unit="s">35</dawn:grand_interval>
-          </dawn:TELSOH>
-          <dawn:TELSOH>
-            <dawn:grand_start_sclk>527083474</dawn:grand_start_sclk>
-            <dawn:grand_stop_sclk>527083474</dawn:grand_stop_sclk>
-            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
-            <dawn:comment>Instrument was in a state not assigned in the state table. </dawn:comment>
-          </dawn:TELSOH>
-          <dawn:TELSOH>
-            <dawn:grand_start_sclk>527083684</dawn:grand_start_sclk>
-            <dawn:grand_stop_sclk>527688064</dawn:grand_stop_sclk>
-            <dawn:grand_interval unit="s">35</dawn:grand_interval>
-          </dawn:TELSOH>
-          <dawn:TELSOH>
-            <dawn:grand_start_sclk>527688274</dawn:grand_start_sclk>
-            <dawn:grand_stop_sclk>527688274</dawn:grand_stop_sclk>
-            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
-            <dawn:comment>Instrument was in a state not assigned in the state table. </dawn:comment>
-          </dawn:TELSOH>
-          <dawn:TELSOH>
-            <dawn:grand_start_sclk>527688484</dawn:grand_start_sclk>
-            <dawn:grand_stop_sclk>528292864</dawn:grand_stop_sclk>
-            <dawn:grand_interval unit="s">35</dawn:grand_interval>
-          </dawn:TELSOH>
-          <dawn:TELSOH>
-            <dawn:grand_start_sclk>528293074</dawn:grand_start_sclk>
-            <dawn:grand_stop_sclk>528293074</dawn:grand_stop_sclk>
-            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
-            <dawn:comment>Instrument was in a state not assigned in the state table. </dawn:comment>
-          </dawn:TELSOH>
-          <dawn:TELSOH>
-            <dawn:grand_start_sclk>528293284</dawn:grand_start_sclk>
-            <dawn:grand_stop_sclk>528897664</dawn:grand_stop_sclk>
-            <dawn:grand_interval unit="s">35</dawn:grand_interval>
-          </dawn:TELSOH>
-          <dawn:TELSOH>
-            <dawn:grand_start_sclk>528897874</dawn:grand_start_sclk>
             <dawn:grand_stop_sclk>528897874</dawn:grand_stop_sclk>
-            <dawn:grand_interval unit="s" xsi:nil="true" nilReason="missing"></dawn:grand_interval>
-            <dawn:comment>Instrument was in a state not assigned in the state table. </dawn:comment>
+            <dawn:grand_interval unit="s">35</dawn:grand_interval>
           </dawn:TELSOH>
       </dawn:TELSOH_List>
       </dawn:grand>
