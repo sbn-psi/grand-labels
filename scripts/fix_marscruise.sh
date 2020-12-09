@@ -1,0 +1,2 @@
+find dawn-grand-mars -name "*.xml" -exec sed -i.bak -e 's/dawn-grand-marscruise/\dawn-grand-mars/' '{}' \;
+find dawn-grand-cruise -name "*.xml" -exec sed -i.bak -e 's/dawn-grand-marscruise/\dawn-grand-cruise/' '{}' \;
