@@ -22,7 +22,7 @@
                       "
 >
   <Identification_Area>
-    <logical_identifier>urn:nasa:pds:dawn-grand-marscruise:data_raw:grd-l1a-100719-100725_110225-rdg</logical_identifier>
+    <logical_identifier>urn:nasa:pds:dawn-grand-cruise:data_raw:grd-l1a-100719-100725_110225-rdg</logical_identifier>
     <version_id>1.0</version_id>
     <title>GRD-L1A-100719-100725_110225-RDG</title>
     <information_model_version>1.11.0.0</information_model_version>
