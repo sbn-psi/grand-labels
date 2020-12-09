@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 set -e
 
-SRCDIR="../temp/pds4_labels_gather_20201203"
+SRCDIR="../temp/pds4_labels_gather_20201209"
 DESTDIR=".."
 
 SRC_BUNDLE=$1
