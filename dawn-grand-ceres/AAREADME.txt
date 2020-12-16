@@ -1,4 +1,4 @@
-A description of the archive and how to get started is provided in the bundle description document.
+A description of the bundle and how to get started is provided in the bundle description document.
 
 If you have access to the bundle, it is located in the document directory, with a file name of "Dawn_GRaND_Ceres_bundle_description.pdf".
 
