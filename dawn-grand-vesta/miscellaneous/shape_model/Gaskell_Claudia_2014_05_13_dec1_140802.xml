@@ -9,11 +9,11 @@
   xmlns:proc="http://pds.nasa.gov/pds4/proc/v1"
   xmlns:geom="http://pds.nasa.gov/pds4/geom/v1"
   xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1A00.xsd
-                      http://pds.nasa.gov/pds4/proc/v1 https://pds.nasa.gov/pds4/disp/v1/PDS4_PROC_1900.xsd
+                      http://pds.nasa.gov/pds4/proc/v1 https://pds.nasa.gov/pds4/proc/v1/PDS4_PROC_1900.xsd
                       http://pds.nasa.gov/pds4/msn/v1 https://pds.nasa.gov/pds4/msn/v1/PDS4_MSN_1700.xsd
                       http://pds.nasa.gov/pds4/geom/v1 https://pds.nasa.gov/pds4/geom/v1/PDS4_GEOM_1700.xsd"
 >  <Identification_Area>
-    <logical_identifier>urn:nasa:pds:dawn-grand-vesta:data_derived:gaskell_claudia_2014_05_13_dec1_140802.stl</logical_identifier>
+    <logical_identifier>urn:nasa:pds:dawn-grand-vesta:miscellaneous:gaskell_claudia_2014_05_13_dec1_140802.stl</logical_identifier>
     <version_id>1.0</version_id>
     <title>gaskell_claudia_2014_05_13_dec1_140802</title>
     <information_model_version>1.10.0.0</information_model_version>
@@ -92,7 +92,7 @@
   </Observation_Area>
   <Reference_List>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:dawn-grand-vesta:document:grd_l1b_ephemeris_pointing_geometry_v3</lid_reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-ancillary:document:dawn_grand_ephemeris_pointing_geometry.pdf</lid_reference>
       <reference_type>data_to_document</reference_type>
       <comment>Dawn's gamma ray and neutron detector: Ephemeris, pointing &amp; geometry at Vesta and Ceres</comment>
     </Internal_Reference>
