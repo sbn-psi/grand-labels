@@ -16,7 +16,7 @@
   </Identification_Area>
   <Reference_List>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:dawn-grand-derived:data_derived_vesta:grd_iron_uncorrected_counts_map</lid_reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-vesta:data_derived:grd_iron_corrected_counts_map</lid_reference>
       <reference_type>browse_to_data</reference_type>
       <comment>This is a reference to the data file corresponding to this browse plot.</comment>
     </Internal_Reference>
