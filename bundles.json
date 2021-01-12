@@ -28,7 +28,7 @@
         "bundle_description":"cruise",
         "author_list":"Prettyman, T.H.",
         "doi":"10.26033/skyr-at92",
-        "readmefile": "AAREADME.txt",
+        "readmefile": "readme_dawn-grand-cruise.txt",
         "targets": ["mars","vesta","ceres"],
         "collections": [
             {
@@ -63,7 +63,7 @@
         "bundle_description":"Mars",
         "author_list":"Prettyman, T.H.",
         "doi":"10.26033/v138-0v94",
-        "readmefile": "AAREADME.txt",
+        "readmefile": "readme_dawn-grand-mars.txt",
         "targets": ["mars"],
         "collections": [
             {
@@ -104,7 +104,7 @@
         "bundle_description":"Vesta",
         "author_list":"Prettyman, T.H.; Yamashita, N.",
         "doi":"10.26033/ypv0-mt21",
-        "readmefile": "AAREADME.txt",
+        "readmefile": "readme_dawn-grand-vesta.txt",
         "targets": ["vesta"],        
         "collections": [
             {
@@ -170,7 +170,7 @@
         "bundle_description":"Ceres",
         "author_list":"Prettyman, T.H.; Yamashita, N.",
         "doi":"10.26033/hf9h-pt31",
-        "readmefile": "AAREADME.txt",
+        "readmefile": "readme_dawn-grand-ceres.txt",
         "targets": ["ceres"],
         "collections": [
             {

@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1A00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://pds.nasa.gov/pds4/proc/v1/PDS4_PROC_1900.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://pds.nasa.gov/pds4/geom/PDS4_GEOM_1900_1510.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <Product_Observational 
   xmlns="http://pds.nasa.gov/pds4/pds/v1"   
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -9,9 +8,7 @@
   xmlns:proc="http://pds.nasa.gov/pds4/proc/v1"
   xmlns:geom="http://pds.nasa.gov/pds4/geom/v1"
   xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1A00.xsd
-                      http://pds.nasa.gov/pds4/proc/v1 https://pds.nasa.gov/pds4/disp/v1/PDS4_PROC_1900.xsd
-                      http://pds.nasa.gov/pds4/msn/v1 https://pds.nasa.gov/pds4/msn/v1/PDS4_MSN_1700.xsd
-                      http://pds.nasa.gov/pds4/geom/v1 https://pds.nasa.gov/pds4/geom/v1/PDS4_GEOM_1700.xsd"
+                      http://pds.nasa.gov/pds4/proc/v1 https://pds.nasa.gov/pds4/proc/v1/PDS4_PROC_1900.xsd"
 >  <Identification_Area>
     <logical_identifier>urn:nasa:pds:dawn-grand-ceres:data_derived:ceres_spc181019_0512_plt_1_00.stl</logical_identifier>
     <version_id>1.0</version_id>

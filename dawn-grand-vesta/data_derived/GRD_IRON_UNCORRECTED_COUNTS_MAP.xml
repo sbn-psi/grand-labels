@@ -1,7 +1,5 @@
 <?xml version="1.0"?>
 <?xml-model href="https://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://pds.nasa.gov/pds4/proc/v1/PDS4_PROC_1900.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://pds.nasa.gov/pds4/geom/PDS4_GEOM_1900_1510.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://pds.nasa.gov/pds4/msn/v1/PDS4_MSN_1B00_1100.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
 <Product_Observational 
   xmlns="http://pds.nasa.gov/pds4/pds/v1"   
@@ -18,12 +16,12 @@
     <product_class>Product_Observational</product_class>
     <Citation_Information>
       <author_list>Yamashita, N.</author_list>
-      <publication_year>2020</publication_year>
+      <publication_year>2021</publication_year>
       <description>GRaND at Vesta Level 2 iron uncorrected counts map</description>
     </Citation_Information>
     <Modification_History>
       <Modification_Detail>
-        <modification_date>2020-04-08</modification_date>
+        <modification_date>2021-01-06</modification_date>
         <version_id>1.0</version_id>
         <description>PDS4 migration of GRD_IRON_UNCORRECTED_COUNTS_MAP.TAB from PDS3 dataset DAWN-A-GRAND-5-VESTA-GAMMA-IRON-UNC-V1.0.</description>
       </Modification_Detail>
