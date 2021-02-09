@@ -25,7 +25,7 @@
         
         <Modification_History>
             <Modification_Detail>
-                <modification_date>2021-01-06</modification_date>
+                <modification_date>2021-02-08</modification_date>
                 <version_id>1.0</version_id>
                 <description>
                   Initial release.
@@ -68,7 +68,7 @@
     <Document>
         <document_name>Dawn's Gamma Ray and Neutron Detector: Raw Data Description</document_name>
         <author_list>Prettyman, T.H.</author_list>
-        <publication_date>2020-08-10</publication_date>
+        <publication_date>2021-02-08</publication_date>
         <description>
             The raw collections in the Cruise, Mars, Vesta and Ceres bundles contain time-ordered gamma ray and neutron counting data and histograms acquired by GRaND during all phases of the Dawn mission. Housekeeping data, such as temperature and voltage readings, accompany the science data. All higher-level data products in the GRaND archive were derived from the raw data.
         </description>
