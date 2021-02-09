@@ -17,4 +17,5 @@ find dawn-grand-mars -name "*.xml" -exec sed -i.bak \
     -e 's/urn:nasa:pds:dawn_grand:data:state_table/urn:nasa:pds:dawn-grand-ancillary:miscellaneous:grd_state_table/' '{}' \;
 
 find dawn-grand-vesta -name "*.xml" -exec sed -i.bak \
+    -e 's/urn:nasa:pds:dawn-grand-ceres:document:grd_l1b_bgo_data_processing_v4_1/urn:nasa:pds:dawn-grand-ancillary:document:dawn_grand_bgo_calibrated_data_processing.pdf/' \
     -e 's/urn:nasa:pds:dawn_grand:data:state_table/urn:nasa:pds:dawn-grand-ancillary:miscellaneous:grd_state_table/' '{}' \;
