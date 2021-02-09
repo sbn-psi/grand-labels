@@ -116,7 +116,7 @@
     <nucspec:Instrument_Settings>
       <nucspec:State_Table>
         <Internal_Reference>
-          <lid_reference>urn:nasa:pds:dawn_grand:data:state_table</lid_reference>
+          <lid_reference>urn:nasa:pds:dawn-grand-ancillary:miscellaneous:grd_state_table</lid_reference>
           <reference_type>nucspec_product_to_state_table</reference_type>
         </Internal_Reference>
         <Local_Internal_Reference>
