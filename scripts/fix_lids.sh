@@ -12,3 +12,6 @@ find dawn-grand-ceres -name "*.xml" -exec sed -i.bak \
 
 find dawn-grand-cruise -name "*.xml" -exec sed -i.bak \
     -e 's/urn:nasa:pds:dawn_grand:data:state_table/urn:nasa:pds:dawn-grand-ancillary:miscellaneous:grd_state_table/' '{}' \;
+
+find dawn-grand-mars -name "*.xml" -exec sed -i.bak \
+    -e 's/urn:nasa:pds:dawn_grand:data:state_table/urn:nasa:pds:dawn-grand-ancillary:miscellaneous:grd_state_table/' '{}' \;
