@@ -133,7 +133,7 @@
   </Observation_Area>
   <Reference_List>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:dawn-grand-ceres:document:grand_data_proc-130711.pdf</lid_reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-ancillary:document:dawn_grand_bgo_calibrated_data_processing.pdf</lid_reference>
       <reference_type>data_to_document</reference_type>
       <comment>PDS Data Processing: Gamma Ray and Neutron Detector</comment>
     </Internal_Reference>

@@ -117,7 +117,7 @@
     <nucspec:Instrument_Settings>
       <nucspec:State_Table>
         <Internal_Reference>
-          <lid_reference>urn:nasa:pds:dawn_grand:data:state_table</lid_reference>
+          <lid_reference>urn:nasa:pds:dawn-grand-ancillary:miscellaneous:grd_state_table</lid_reference>
           <reference_type>nucspec_product_to_state_table</reference_type>
         </Internal_Reference>
         <Local_Internal_Reference>
@@ -209,7 +209,7 @@
   </Observation_Area>
   <Reference_List>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:dawn-grand-ceres:document:grd_l1b_bgo_data_processing_v4_1</lid_reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-ancillary:document:dawn_grand_bgo_calibrated_data_processing.pdf</lid_reference>
       <reference_type>data_to_document</reference_type>
       <comment>Dawn's gamma ray and neutron detector: BGO data processing</comment>
     </Internal_Reference>
