@@ -89,7 +89,7 @@
   </Observation_Area>
   <Reference_List>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:dawn-grand-ceres:document:grd_l1b_ephemeris_pointing_geometry_v3</lid_reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-ancillary:document:dawn_grand_ephemeris_pointing_geometry.pdf</lid_reference>
       <reference_type>data_to_document</reference_type>
       <comment>Dawn's gamma ray and neutron detector: Ephemeris, pointing &amp; geometry at Vesta and Ceres</comment>
     </Internal_Reference>
