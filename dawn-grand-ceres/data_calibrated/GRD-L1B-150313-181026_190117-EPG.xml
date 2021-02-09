@@ -3435,7 +3435,7 @@
       <comment>Dawn's gamma ray and neutron detector: Ephemeris, pointing &amp; geometry at Vesta and Ceres</comment>
     </Internal_Reference>
     <Internal_Reference>
-      <lid_reference>urn:nasa:pds:dawn-grand-ceres:data_reduced:ceres_spc181019_0512_plt_1_00.stl</lid_reference>
+      <lid_reference>urn:nasa:pds:dawn-grand-ceres:miscellaneous:ceres_spc181019_0512_plt_1_00.stl</lid_reference>
       <reference_type>data_to_geometry</reference_type>
       <comment>Shape model used in solid angle calculations: STereoLithography (STL) format (binary)</comment>
     </Internal_Reference>
