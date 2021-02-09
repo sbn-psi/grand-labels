@@ -24,7 +24,7 @@
         
         <Modification_History>
             <Modification_Detail>
-                <modification_date>2021-01-06</modification_date>
+                <modification_date>2021-02-08</modification_date>
                 <version_id>1.0</version_id>
                 <description>
                   Initial release.
@@ -67,7 +67,7 @@
     <Document>
         <document_name>Dawn's Gamma Ray and Neutron Detector: Vesta bundle description</document_name>
         <author_list>Prettyman, T.H.; Yamashita, N.</author_list>
-        <publication_date>2020-08-28</publication_date>
+        <publication_date>2021-02-08</publication_date>
         <description>
             An overview of raw, calibrated and derived data acquired during Vesta encounter is provided along with a description of mission operations.
         </description>
