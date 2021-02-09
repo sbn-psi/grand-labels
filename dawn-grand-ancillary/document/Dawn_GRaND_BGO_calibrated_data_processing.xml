@@ -25,7 +25,7 @@
         
         <Modification_History>
             <Modification_Detail>
-                <modification_date>2021-01-06</modification_date>
+                <modification_date>2021-02-08</modification_date>
                 <version_id>1.0</version_id>
                 <description>
                   Initial release.
@@ -68,7 +68,7 @@
     <Document>
         <document_name>Dawn's Gamma Ray and Neutron Detector: BGO calibrated data processing</document_name>
         <author_list>Yamashita, N.; Prettyman, T.H.</author_list>
-        <publication_date>2020-08-21</publication_date>
+        <publication_date>2021-02-08</publication_date>
         <description>
             This document provides an overview of BGO single-interaction data (CAT9) processing for the NASA Dawn mission’s Gamma Ray and Neutron Detector (GRaND). The methods and parameters used to correct and calibrate the time-series BGO spectra archived as Raw collections are described here, including the differential non-linearity correction for the analog-to-digital converter, gain correction, and energy calibration. The resulting higher level data set are archived as part of the Planetary Data System (PDS), GRaND Calibrated collection for the Vesta and Ceres bundles. This document is essential reading for users of the BGO calibrated spectra.
         </description>
