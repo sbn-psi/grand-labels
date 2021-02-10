@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 
-from bs4 import BeautifulSoup
+import xml.etree.ElementTree
 import sys
 import os
 import itertools
@@ -48,13 +48,13 @@ def is_product(filename):
 
 
 def extract_lidvid(filename):
-    with open(filename) as f:
-        soup = BeautifulSoup(f, "lxml-xml")
-    identification_area = soup.find("Identification_Area")
-    lid = identification_area.logical_identifier.string
-    vid = identification_area.version_id.string
-    return lid + "::" + vid
-
+    lid=""
+    for (event, elem) in xml.etree.ElementTree.iterparse(filename):
+        #print (elem.text)
+        if elem.tag=="{http://pds.nasa.gov/pds4/pds/v1}logical_identifier":
+            lid=elem.text
+        if elem.tag=="{http://pds.nasa.gov/pds4/pds/v1}version_id":
+            return lid + "::" + elem.text
 
 if __name__ == '__main__':
     main()
