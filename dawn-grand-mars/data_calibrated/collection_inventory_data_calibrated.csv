@@ -3,3 +3,6 @@ P,urn:nasa:pds:dawn-grand-mars:data_calibrated:grd-l1b-090217-090218_110225-cma-
 P,urn:nasa:pds:dawn-grand-mars:data_calibrated:grd-l1b-090217-090218_110225-cma-gcr::1.0
 P,urn:nasa:pds:dawn-grand-mars:data_calibrated:grd-l1b-090217-090218_110225-cma-ncr::1.0
 P,urn:nasa:pds:dawn-grand-mars:data_calibrated:grd-l1b-090217-090218_110225-dts-bgo::1.0
+P,urn:nasa:pds:dawn-grand-mars:data_calibrated:grd-l1b-090217-090218_110225-dts-epm::1.0
+P,urn:nasa:pds:dawn-grand-mars:data_calibrated:grd-l1b-090217-090218_110225-dts-gcr::1.0
+P,urn:nasa:pds:dawn-grand-mars:data_calibrated:grd-l1b-090217-090218_110225-dts-ncr::1.0
