@@ -25,7 +25,7 @@
         
         <Modification_History>
             <Modification_Detail>
-                <modification_date>2021-01-06</modification_date>
+                <modification_date>2021-02-08</modification_date>
                 <version_id>1.0</version_id>
                 <description>
                   Initial release.
@@ -68,7 +68,7 @@
     <Document>
         <document_name>Dawn's Gamma Ray and Neutron Detector: Ephemeris, pointing and geometry</document_name>
         <author_list>Prettyman, T.H.</author_list>
-        <publication_date>2020-08-11</publication_date>
+        <publication_date>2021-02-08</publication_date>
         <description>
             Ephemeris, pointing and geometry (EPG) data for the NASA Dawn mission’s Gamma Ray and Neutron Detector (GRaND) are described. The data are part of the Dawn GRaND Planetary Data System (PDS4) archive. The EPG data support the analysis of time-series counting data in the raw and calibrated collections for Vesta and Ceres encounters. For each encounter, the data are archived as a single text file. The file contains the position of the Dawn spacecraft in the target’s (Vesta or Ceres) fixed frame, the direction to body center in the instrument frame, the solid angle subtended by Vesta or Ceres at the spacecraft, and ancillary counting information, including live time and a proxy for the flux of galactic cosmic rays. The information can be used for a variety of purposes: for example, selection of data that meet pointing criteria and geometry corrections for counting data. Methods used to determine the quantities recorded in the EPG tables are presented. This document is essential reading for users of raw and calibrated data.
         </description>
