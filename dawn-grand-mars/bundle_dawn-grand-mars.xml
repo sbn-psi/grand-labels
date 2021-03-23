@@ -33,8 +33,8 @@
 
     <Context_Area>
         <Time_Coordinates>
-            <start_date_time xsi:nil="true" nilReason="unknown"/>
-            <stop_date_time xsi:nil="true" nilReason="unknown"/>
+            <start_date_time>2009-01-20T22:00Z</start_date_time>
+            <stop_date_time>2009-03-27T16:54Z</stop_date_time>
         </Time_Coordinates>
 
         <Investigation_Area>
